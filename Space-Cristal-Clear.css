@@ -1,0 +1,420 @@
+/**/    @import url(https://fonts.googleapis.com/css?family=Exo+2);
+    
+/*================Fonts Settings================*/
+/**/    *{
+/**/        color: silver;
+/**/        font-family: 'Exo+2', Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif !important;
+/**/        border-radius: 0px !important;
+/**/    }
+/**/
+/**/	div>*:not(code) {
+/**/        font-family: 'Exo+2', Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif !important;
+/**/    }
+/**/
+/**/    .messages .markup:not([data-colour="false"]) {
+/**/        color: silver !important;
+/**/    }
+/*================Fin Fonts Settings================*/
+    
+/*================APP================*/
+/**/    .app, .callou-backdrop, body{
+/**/        background: url(https://puu.sh/xpZNR/d290835809.jpg) !important;
+/**/        background-size: cover !important;
+/**/        background-attachment: fixed !important;
+/**/        background-position: center center !important;
+/**/        background-repeat: no-repeat !important;
+/**/    }
+/**/
+/**/    .theme-dark .layer{
+/**/        background: rgba(0,0,0,0.32) !important;
+/**/    }
+/*================Fin APP================*/
+    
+/*================Serveur List================*/
+/**/    .guilds-wrapper{
+/**/        background: rgba(0,0,0,0.16) !important;
+/**/    }
+/**/    
+/**/    .guild-inner, .friends-icon:after {
+/**/        display: block;
+/**/        width: 48px;
+/**/        height: 48px;
+/**/        content: '';
+/**/        background-image: url(https://i.imgur.com/l7vNybT.gif) !important;
+/**/        background-size: 124%;
+/**/        background-repeat: no-repeat;
+/**/        background-position: center;
+/**/    }
+/**/
+/**/    .guild-inner, .guild, .avatar-small{
+/**/        border-radius:0px !important;
+/**/    }
+/*================Fin Serveur List================*/
+
+/*================Friends List================*/
+/**/    .channels-wrap, .private-channels, .search-bar, .search-bar-inner{
+/**/        background-color: rgba(0,0,0,0.16) !important;
+/**/    }
+/**/
+/**/    .flex-vertical, .search-bar{
+/**/        background: transparent !important;
+/**/    }
+/**/
+/**/    .private-channels .channel.selected a{
+/**/        background-color: rgba(255,255,255,0.08) !important;
+/**/    }
+/**/
+/**/    .friends-header, .friends-table, .theme-dark .chat > .content, .theme-dark .messages-wrapper{
+/**/        background-color: transparent !important;
+/**/    }
+/**/
+/**/    #friends, .theme-dark .chat, .inner-3if5cm{
+/**/        background-color: rgba(0,0,0,0.16) !important;
+/**/    }
+/**/
+/**/    .chat.flex-vertical.flex-spacer.private > .content.flex-spacer.flex-horizontal > .flex-spacer.flex-vertical{
+/**/        box-shadow: none !important;
+/**/    }
+/*================Fin Friends List================*/
+    
+/*================Serveur Channels List================*/
+/**/    .container-RYiLUQ, .channel-notices .channel-notice.invite{
+/**/        background-color: rgba(0,0,0,0.16) !important;
+/**/    }
+/**/
+/**/    .popout-menu{
+/**/        background: rgba(0,0,0,1) !important;
+/**/    }
+/**/
+/**/    .popout-menu .popout-menu-item:hover{
+/**/        background-color: rgba(255,255,255,0.04) !important;
+/**/    }
+/*================Fin Serveur Channels List================*/
+    
+/*================Users Server List Panel Animation================*/
+/**/    .channel-members {
+/**/        transform: translate(150px)!important;
+/**/        z-index: 2!important;
+/**/        transition: all 300ms ease!important
+/**/    }
+/**/
+/**/    .channel-members:hover {
+/**/        animation: member 300ms ease!important;
+/**/        transform: translate(0px)!important;
+/**/        background: rgba(0, 0, 0, 0.16)!important;
+/**/        border-left: 1px solid black !important;
+/**/    }
+/**/        
+/**/    .theme-dark .channel-members{
+/**/         background-color: rgba(0,0,0,0.32) !important;
+/**/    }
+/**/        
+/**/    .app {
+/**/        overflow-x: hidden!important
+/**/    }
+/**/
+/**/    .channel-members .member .member-activity,
+/**/    .channel-members .member .member-username-inner {
+/**/        opacity: 0!important;
+/**/        transition: opacity 300ms ease, margin 100ms ease!important
+/**/    }
+/**/
+/**/    .channel-members .member .member-username-inner {
+/**/        margin-bottom: 0px!important
+/**/    }
+/**/
+/**/    .channel-members:hover .member .member-activity,
+/**/    .channel-members:hover .member .member-username-inner {
+/**/        opacity: 1!important
+/**/    }
+/**/
+/**/    .header-toolbar button.active {
+/**/        display: none!important
+/**/    }
+/**/
+/**/    .channel-members h2 {
+/**/        transform-origin: right!important;
+/**/        transform: scale(0)!important;
+/**/        margin-top: 4px!important;
+/**/        margin-bottom: 4px !important;
+/**/        padding: 2px, 0px, 2px, 0px !important;
+/**/        transition: all 300ms ease!important
+/**/    }
+/**/
+/**/    .channel-members:hover h2 {
+/**/        transform: scale(1)!important;
+/**/        margin: inherit!important
+/**/    }
+/**/
+/**/    .channel-members .avatar-small {
+/**/        box-shadow: -1px 1px 8px rgba(255,255,255,0.16), inset -1px 1px 8px rgba(255,255,255,0.16), inset 1px -1px 8px rgba(255,255,255,0.16), 1px -1px 8px rgba(255,255,255,0.16);
+/**/        border-radius: 0;
+/**/    }
+/**/
+/**/    .chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical {
+/**/        margin-right: -151px!important;
+/**/        z-index: 1!important
+/**/    }
+/**/
+/**/    .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical {
+/**/        margin-right: 0px!important;
+/**/        z-index: 1!important;
+/**/        box-shadow: inset 10px 10px 5px -6px rgba(0, 0, 0, 1)!important
+/**/    }
+/**/
+/**/    div.chat.flex-vertical.flex-spacer.private .channel-members-wrap {
+/**/        margin-left: -150px
+/**/    }
+/*================Fin Users Server List Panel Animation================*/
+    
+/*================Users Server List================*/
+/**/    .userPopout-4pfA0d{
+/**/        background-color: rgba(0,0,0,0.32) !important;
+/**/    }
+/**/
+/**/    .headerNormal-1cioxU{
+/**/        background: transparent !important;
+/**/        border-left: 1px solid silver !important;
+/**/        border-right: 1px solid silver !important;
+/**/        border-top: 1px solid silver !important;
+/**/    }
+/**/
+/**/    .body-3rkFrF{
+/**/        background: transparent !important;
+/**/        border-right: 1px solid silver !important;
+/**/        border-left: 1px solid silver !important;
+/**/    }
+/**/
+/**/    .footer-2J5zqP{
+/**/        background: transparent !important;
+/**/        border-left: 1px solid silver !important;
+/**/        border-right: 1px solid silver !important;
+/**/        border-bottom: 1px solid silver !important;
+/**/    }
+/**/
+/**/    .quick-message{
+/**/        background: rgba(0,0,0,0.08) !important;
+/**/    }
+/*================Fin Users Server List================*/
+
+/*================Private Tchat================*/
+/**/    .theme-dark .private-channel-call {
+/**/        background-color: transparent !important;
+/**/    }
+/**/
+/**/    .ui-video{
+/**/        background-color: rgba(0,0,0,0.32) !important;
+/**/    }
+/*================Private Tchat================*/
+    
+/*================Tchat================*/
+/**/    .theme-dark .messages-wrapper .messages .message-group-blocked{
+/**/        background: rgba(0,0,0,0) !important;
+/**/    }
+/**/
+/**/    .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn
+/**/    {
+/**/        background: rgba(0,0,0,0.16) !important;
+/**/        border-color: rgba(192,192,192,0.32) !important;
+/**/        padding-top: 4px !important;
+/**/        padding-bottom: 4px !important;
+/**/    }
+/**/
+/**/    .theme-dark .messages-wrapper .messages .divider:not(.red) span {
+/**/        color: rgba(153,170,181,.5);
+/**/        padding-top: 4px;
+/**/    }
+/**/
+/**/    .theme-dark .messages-wrapper .messages .divider span{
+/**/        background: rgba(255, 255, 255, 0) !important;
+/**/        border-radius: 0px;
+/**/    }
+/**/
+/**/    .chat .divider::before{
+/**/        background-color: rgba(255,255,255,0.02) !important;
+/**/        border: 1px solid rgba(255,255,255,0.04) !important;
+/**/        position: absolute;
+/**/        width: 50% !important;
+/**/        z-index: 0;
+/**/        padding: 8px !important;
+/**/        margin-top: 4px !important;
+/**/        margin-left: 25% !important;
+/**/    }
+/**/
+/**/    .chat .divider > div{
+/**/        height: 0px !important;
+/**/    }
+/**/
+/**/    .theme-dark .chat .jump-to-present-bar{
+/**/        background:
+/**/             radial-gradient(black 15%, transparent 16%) 0 0,
+/**/             radial-gradient(black 15%, transparent 16%) 8px 8px,
+/**/             radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+/**/             radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+/**/        background-color:#282828;
+/**/        background-size:16px 16px;
+/**/    }
+/**/
+/**/    .chat .divider > span, .chat .divider-red > span{
+/**/        margin-top: 4px !important;
+/**/    }
+/**/
+/**/    .theme-dark .themed-popout, .theme-dark .themed-popout .header,
+/**/    .theme-dark .themed-popout .footer,
+/**/    .theme-dark .messages-popout-wrap .messages-popout .message-group{
+/**/        background-color: rgba(0,0,0,0.32) !important;
+/**/    }
+/**/
+/**/    .theme-dark .search-results-wrap,
+/**/    .theme-dark .search-results-wrap .search-header,
+/**/    .theme-dark .search-results-wrap .channel-separator .channel-name{
+/**/    
+/**/        background-color: rgba(0,0,0,0.40) !important;
+/**/        z-index: 9 !important;
+/**/    }
+/**/
+/**/    .theme-dark .search-results-wrap .search-result .hit
+/**/    {
+/**/        background-color: rgba(0,0,0,0.16) !important;
+/**/        box-shadow: none !important;
+/**/    }
+/**/
+/**/    .search-results-wrap .search-result::after,
+/**/    .search-results-wrap .search-result::before
+/**/    {
+/**/        background-image: none !important;
+/**/        bottom: 0;
+/**/    }
+/**/
+/**/    .small-popout-box{
+/**/        background: rgba(0,0,0,0.64) !important;
+/**/        border: 1px solid silver !important;
+/**/    }
+/*================Fin Tchat================*/
+    
+/*================Emoji================*/
+/**/    .emoji-picker{
+/**/        background-color: rgba(0,0,0,0.16) !important;
+/**/        border: 1px solid silver;
+/**/    }
+/**/
+/**/    .emoji-picker .sticky-header{
+/**/        background: rgba(0,0,0,0) !important;
+/**/    }
+/**/
+/**/    .emoji-picker .scroller .emoji-item.selected{
+/**/        background-color: rgba(255,255,255,0.16) !important;
+/**/    }
+/**/
+/**/    .scrollerThemed-19vinI.themeLight-1WK0Av .scrollbar-2so3Ly,
+/**/    .scrollerThemed-19vinI.themeLight-1WK0Av .scrollbar-2so3Ly .pad-3D5tOh,
+/**/    .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av .scrollbar-2so3Ly,
+/**/    .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av .scrollbar-2so3Ly .pad-3D5tOh,
+/**/    .theme-light .scrollerWrap-2uBjct .scrollbar-2so3Ly,
+/**/    .theme-light .scrollerWrap-2uBjct .scrollbar-2so3Ly .pad-3D5tOh,
+/**/    {
+/**/        overflow-y: hidden !important;
+/**/        background-color: rgba(0,0,0,0) !important;
+/**/    }
+/**/
+/**/    .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0 > .scrollbar-2so3Ly > .track-2Kex6E,
+/**/    .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av.scrollerTrack-3hhmU0 > .scrollbar-2so3Ly > .track-2Kex6E,
+/**/    .theme-light .scrollerWrap-2uBjct.scrollerTrack-3hhmU0 > .scrollbar-2so3Ly > .track-2Kex6E,
+/**/    .scrollerThemed-19vinI.themeLight-1WK0Av .scrollbar-2so3Ly .thumb-3VsfAI,
+/**/    .theme-dark .scrollerThemed-19vinI.themeLight-1WK0Av .scrollbar-2so3Ly .thumb-3VsfAI,
+/**/    .theme-light .scrollerWrap-2uBjct .scrollbar-2so3Ly .thumb-3VsfAI,
+/**/    .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar,
+/**/    .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar::after,
+/**/    .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar,
+/**/    .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar::after,
+/**/    .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .track,
+/**/    .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .track,
+/**/    .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .thumb::after,
+/**/    .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb::after,
+/**/    .scroller-wrap .scrollbar::after,
+/**/    .scroller-wrap .scrollbar .thumb::after,
+/**/    .theme-dark .friends-table .scroller-wrap.polyfill .scrollbar .thumb,
+/**/    .theme-dark .messages-wrapper .scroller-wrap.polyfill .scrollbar .thumb,
+/**/    .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb,
+/**/    .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb{
+/**/        background-color: rgba(0,0,0,0) !important;
+/**/        border: none !important;
+/**/    }
+/*================Fin Emoji================*/
+    
+/*================Call================*/
+/**/    .container-iksrDt{
+/**/        background-color: rgba(0,0,0,0.16) !important;
+/**/    }
+/**/
+/**/    .container-3lnMWU{
+/**/        background: rgba(0,0,0,0.16) !important;
+/**/    }
+/*================Fin Call================*/
+    
+/*================Profils================*/
+/**/    #user-profile-modal .header::after,
+/**/    #user-profile-modal .tab-bar-container,
+/**/    #user-profile-modal .header,
+/**/    #user-profile-modal .scroller,
+/**/    #user-profile-modal .empty{
+/**/        background-image: none !important;
+/**/        background-color: rgba(0,0,0,0) !important;
+/**/    }
+/**/
+/**/    .inner-1_1f7b{
+/**/        border: 1px solid silver !important;
+/**/    }
+/**/
+/**/    .scroller-wrap .scrollbar::after,
+/**/    .scroller-wrap .scrollbar .track,
+/**/    .scroller-wrap .scrollbar .thumb::after,
+/**/    .scroller-wrap .scrollbar{
+/**/        background-image: none !important;
+/**/        background-color: rgba(0,0,0,0) !important;
+/**/    }
+/**/
+/**/    #user-profile-modal .guilds .guild:hover,
+/**/        .theme-dark .channel-members .member:hover{
+/**/        background: rgba(255,255,255,0.16) !important;
+/**/    }
+/*================Fin Profils================*/
+    
+/*================Server Settings================*/
+/**/    .theme-dark .ui-standard-sidebar-view {
+/**/        background: rgba(0,0,0,0.40) !important;
+/**/    }
+/**/
+/**/    .theme-dark .ui-popout-list{
+/**/        background: rgba(0,0,0,0.88) !important;
+/**/    }
+/**/
+/**/    .theme-dark .ui-standard-sidebar-view .sidebar-region,
+/**/    .theme-dark .ui-standard-sidebar-view .content-region{
+/**/        background: transparent !important;
+/**/    }
+/**/
+/**/    .theme-dark .modal-3HOjGZ,
+/**/    .theme-dark .footer-1PYmcw{
+/**/        background-color: rgba(0,0,0,0.32) !important;
+/**/    }
+/**/
+/**/    .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly,
+/**/    .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly .pad-3D5tOh,
+/**/    .theme-dark .scrollerWrap-2uBjct .scrollbar-2so3Ly,
+/**/    .theme-dark .scrollerWrap-2uBjct .scrollbar-2so3Ly .pad-3D5tOh,
+/**/    .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly,
+/**/    .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly .pad-3D5tOh,
+/**/    .track-2Kex6E,
+/**/    .theme-dark .scrollerThemed-19vinI.themeGhostHairline-2H8SiW .scrollbar-2so3Ly .thumb-3VsfAI,
+/**/    .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly,
+/**/    .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly .pad-3D5tOh,
+/**/    .theme-dark .scrollerWrap-2uBjct .scrollbar-2so3Ly,
+/**/    .theme-dark .scrollerWrap-2uBjct .scrollbar-2so3Ly .pad-3D5tOh,
+/**/    .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly,
+/**/    .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly .pad-3D5tOh,
+/**/    .track-2Kex6E
+/**/    {
+/**/        background-color: rgba(0,0,0,0) !important;
+/**/    }
+/*================Fin Server Settings================*/
