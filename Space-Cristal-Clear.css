@@ -65,8 +65,33 @@
 /**/        background-image: none !important;
 /**/    }
 /**/
-/**/    .form.deprecated .form-inner, .form.deprecated .form-actions, .link-container input{
+/**/    .form.deprecated .form-inner, .form.deprecated .form-actions, .link-container input, .instant-invite-modal, .form.deprecated .form-header{
 /**/        background-color: rgba(0,0,0,0.16) !important;
+/**/    }
+/**/        
+/**/    .Select-control, .Select-menu-outer{
+/**/        background-color: rgba(0,0,0,0.88) !important;
+/**/        color: silver !important;
+/**/        margin-top: 21px !important;
+/**/    }
+/**/          
+/**/    .control-group > label{
+/**/        padding-top: 10px !important;
+/**/        padding-bottom: 11px !important;
+/**/        height: 24px !important;
+/**/        text-align: center;
+/**/        justify-content: center;
+/**/    }
+/**/          
+/**/    .instant-invite-modal, .instant-invite-modal-advanced{
+/**/        height: 300px !important;
+/**/    }
+/**/              
+/**/    #instant-invite-modal-advanced .form-actions .btn{
+/**/        padding-top: 8px !important;
+/**/        padding-bottom: 8px !important;
+/**/        padding-left: 14px !important;
+/**/        padding-right: 14px !important;
 /**/    }
 /**/
 /**/    #guild-name, .form.deprecated .btn-default{
@@ -113,17 +138,22 @@
 /**/    .popout-menu .popout-menu-item:hover{
 /**/        background-color: rgba(255,255,255,0.04) !important;
 /**/    }
+/**/
+/**/    .wrapper-2ldvyE{
+/**/        background-color: rgba(0,0,0,0) !important;
+/**/        color: silver !important;
+/**/    }
 /*================Fin Serveur Channels List================*/
     
 /*================Users Server List Panel Animation================*/
 /**/    .channel-members {
-/**/        transform: translate(148px)!important;
+/**/        transform: translate(150px)!important;
 /**/        z-index: 2!important;
-/**/        transition: all 200ms ease!important
+/**/        transition: all 300ms ease!important
 /**/    }
 /**/
 /**/    .channel-members:hover {
-/**/        animation: member 200ms ease!important;
+/**/        animation: member 300ms ease!important;
 /**/        transform: translate(0px)!important;
 /**/        background: rgba(0, 0, 0, 0.16)!important;
 /**/        border-left: 1px solid black !important;
@@ -140,7 +170,7 @@
 /**/    .channel-members .member .member-activity,
 /**/    .channel-members .member .member-username-inner {
 /**/        opacity: 0!important;
-/**/        transition: opacity 200ms ease, margin 50ms ease!important
+/**/        transition: opacity 300ms ease, margin 100ms ease!important
 /**/    }
 /**/
 /**/    .channel-members .member .member-username-inner {
@@ -162,7 +192,7 @@
 /**/        margin-top: 4px!important;
 /**/        margin-bottom: 4px !important;
 /**/        padding: 2px, 0px, 2px, 0px !important;
-/**/        transition: all 200ms ease!important
+/**/        transition: all 300ms ease!important
 /**/    }
 /**/
 /**/    .channel-members:hover h2 {
@@ -187,7 +217,7 @@
 /**/    }
 /**/
 /**/    div.chat.flex-vertical.flex-spacer.private .channel-members-wrap {
-/**/        margin-left: -148px
+/**/        margin-left: -150px
 /**/    }
 /*================Fin Users Server List Panel Animation================*/
     
@@ -245,7 +275,7 @@
 /**/    }
 /**/
 /**/    .theme-dark .messages-wrapper .messages .divider:not(.red) span {
-/**/        color: rgba(153,170,181,.5);
+/**/        color: silver;
 /**/        padding-top: 4px;
 /**/    }
 /**/
@@ -269,14 +299,8 @@
 /**/        height: 0px !important;
 /**/    }
 /**/
-/**/    .theme-dark .chat .jump-to-present-bar{
-/**/        background:
-/**/             radial-gradient(black 15%, transparent 16%) 0 0,
-/**/             radial-gradient(black 15%, transparent 16%) 8px 8px,
-/**/             radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-/**/             radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-/**/        background-color:#282828;
-/**/        background-size:16px 16px;
+/**/    .theme-dark .chat .jump-to-present-bar, .typing{
+/**/        background-color:rgba(40,40,40,0.32) !important;
 /**/    }
 /**/
 /**/    .chat .divider > span, .chat .divider-red > span{
@@ -399,7 +423,7 @@
 /**/    }
 /**/
 /**/    #user-profile-modal .guilds .guild:hover,
-/**/        .theme-dark .channel-members .member:hover{
+/**/    .theme-dark .channel-members .member:hover{
 /**/        background: rgba(255,255,255,0.16) !important;
 /**/    }
 /*================Fin Profils================*/
@@ -425,11 +449,10 @@
 /**/
 /**/    .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly,
 /**/    .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly .pad-3D5tOh,
-/**/    .theme-dark .scrollerWrap-2uBjct .scrollbar-2so3Ly,
+/**/    .theme-dark .scrollerWrap-2uBjct .scrollbar-2so3Ly, .track-2Kex6E,
 /**/    .theme-dark .scrollerWrap-2uBjct .scrollbar-2so3Ly .pad-3D5tOh,
 /**/    .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly,
 /**/    .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly .pad-3D5tOh,
-/**/    .track-2Kex6E,
 /**/    .theme-dark .scrollerThemed-19vinI.themeGhostHairline-2H8SiW .scrollbar-2so3Ly .thumb-3VsfAI,
 /**/    .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly,
 /**/    .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly .pad-3D5tOh,
@@ -437,7 +460,6 @@
 /**/    .theme-dark .scrollerWrap-2uBjct .scrollbar-2so3Ly .pad-3D5tOh,
 /**/    .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly,
 /**/    .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly .pad-3D5tOh,
-/**/    .track-2Kex6E
 /**/    {
 /**/        background-color: rgba(0,0,0,0) !important;
 /**/    }
