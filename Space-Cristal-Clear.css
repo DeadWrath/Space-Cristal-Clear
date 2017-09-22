@@ -49,6 +49,30 @@
 /**/    .guild-inner, .guild, .avatar-small{
 /**/        border-radius:0px !important;
 /**/    }
+/**/
+/**/    .create-guild-container.deprecated,
+/**/    .create-guild-container.deprecated .create-or-join .form-inner,
+/**/    .create-guild-container.deprecated .action{
+/**/        background-color: rgba(0,0,0,0.32) !important;
+/**/        border: 1px solid silver !important;
+/**/    }
+/**/
+/**/    .create-guild-container.deprecated .action + .action{
+/**/        margin-left: 32px !important;  
+/**/    }
+/**/
+/**/    .or{
+/**/        background-image: none !important;
+/**/    }
+/**/
+/**/    .form.deprecated .form-inner, .form.deprecated .form-actions, .link-container input{
+/**/        background-color: rgba(0,0,0,0.16) !important;
+/**/    }
+/**/
+/**/    #guild-name, .form.deprecated .btn-default{
+/**/        background-color: rgba(0,0,0,0.16) !important;
+/**/        border: 1px solid silver !important;
+/**/    }
 /*================Fin Serveur List================*/
 
 /*================Friends List================*/
@@ -413,6 +437,7 @@
 /**/    .theme-dark .scrollerWrap-2uBjct .scrollbar-2so3Ly .pad-3D5tOh,
 /**/    .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly,
 /**/    .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scrollbar-2so3Ly .pad-3D5tOh,
+/**/    .track-2Kex6E
 /**/    {
 /**/        background-color: rgba(0,0,0,0) !important;
 /**/    }
