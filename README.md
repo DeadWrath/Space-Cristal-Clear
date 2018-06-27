@@ -69,5 +69,13 @@ How to install :
 > #THIS ACTION IS VERY IMPORTANT ! On discord go to settings > Appearance and enable dark theme ! Put fonts to 100 and zoom at 110 !
 
 - Return to Settings > CustomCSS
-- Paste all the CSS code in and save BEFORE quitting.
-- Enjoy !
+- Copy all the CSS code from :
+	- [my github css page][1]
+	- [this pastebin][2]
+- Do not forgot to click TWICE on SAVE !
+- Enjoy
+
+
+
+[1]: https://github.com/DeadWrath/Space-Cristal-Clear/blob/master/Space-Cristal-Clear.css
+[2]: https://pastebin.com/5TDXPhE7
