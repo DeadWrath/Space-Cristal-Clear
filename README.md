@@ -4,9 +4,10 @@ Please respect my work and don't modify my theme !
 
 How to install :
 
-- Download and instal BetterDiscord.
+- Download and install BetterDiscord or Zerebos fork : 
 
-    https://betterdocs.net/
+    - https://betterdiscord.net/home/
+    - https://github.com/rauenzi/BetterDiscordApp
 
 - Close and reboot Discord.
 
