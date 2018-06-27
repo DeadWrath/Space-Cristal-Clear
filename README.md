@@ -55,11 +55,8 @@ Please respect my work and don't modify my theme !
 How to install :
 
 - Download and install BetterDiscord or Zerebos fork : 
-	- https://betterdiscord.net/home/
-<br>
-	or
-<br>
-	- https://github.com/rauenzi/BetterDiscordApp
+	- [BetterDiscord][3]
+	- [Zerebos Fork][4]
 - Close and reboot Discord.
 
 ![](https://www.direct-signaletique.com/I-Grande-8075-panneau-de-danger-point-d-exclamation-a14.net.jpg)
@@ -69,10 +66,7 @@ THIS ACTION IS VERY IMPORTANT ! On Discord go to settings > Appearance and enabl
 - Return to Settings > CustomCSS
 - Copy all the CSS code from :
 	- [my github css page][1]
-<br>
-	or
-<br>
-	- [this pastebin][2]
+	- or [this pastebin][2]
 - Paste your clipboard with CRTL+V on the customCSS zone on Discord
 - Do not forgot to click TWICE on SAVE !
 - Enjoy
@@ -81,3 +75,5 @@ THIS ACTION IS VERY IMPORTANT ! On Discord go to settings > Appearance and enabl
 
 [1]: https://github.com/DeadWrath/Space-Cristal-Clear/blob/master/Space-Cristal-Clear.css
 [2]: https://pastebin.com/5TDXPhE7
+[3]: https://betterdiscord.net/home/
+[4]: https://github.com/rauenzi/BetterDiscordApp
