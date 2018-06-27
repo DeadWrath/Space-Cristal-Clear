@@ -9,7 +9,7 @@ How to install :
 
 - Close and reboot Discord.
 
-<i class="fas fa-exclamation-triangle" color="#e5d107" style="background-color:black"></i> THIS ACTION IS VERY IMPORTANT ! ===> On discord go to settings > Appearance and enable dark theme ! Put fonts to 100 and zoom at 110
+![](https://www.direct-signaletique.com/I-Grande-8075-panneau-de-danger-point-d-exclamation-a14.net.jpg) THIS ACTION IS VERY IMPORTANT ! ===> On discord go to settings > Appearance and enable dark theme ! Put fonts to 100 and zoom at 110
 
 - Return to Settings > CustomCSS
 - Paste all the CSS code in and save before quitting.
