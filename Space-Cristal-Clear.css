@@ -8,6 +8,7 @@
      border-radius: 0px !important;
      font-weight:lighter !important;
      box-sizing:border-box;
+     color: silver !important;
 }
  div>*:not(code) {
      font-family: 'Exo 2', Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif !important;
@@ -145,7 +146,7 @@
 }
 /*================End Games================*/
 /*================Private Call================*/
- .theme-dark .wrapper-29NfPK{
+ .theme-dark .wrapper-29NfPK, .video-1FfuMD{
      background-color: rgba(0,0,0,0.08);
 }
  .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r{
@@ -538,7 +539,7 @@
      box-shadow: 0 0 0 0 rgba(0,0,0,0);
 }
  .small-popout-box{
-     background: RGBA(0,0,0,0.88);
+     background: rgba(0,0,0,0.88);
      border: 1px solid silver !important;
      box-sizing: border-box;
      border-radius: 4px;
@@ -546,6 +547,18 @@
  .option-popout .btn-item, .option-popout .btn-item:hover{
      color: silver;
 }
+ .create-guild-container.deprecated .create-or-join .form-inner, .create-guild-container.deprecated .action,
+ .form.deprecated .control-group input[type=text], .form.deprecated .form-actions,
+ .form-deprecated .form-header, .wrapper-O5i5-0 .instantInviteModal-3vhcvC .form-actions{
+ 	background-color: rgba(0,0,0,0.16);
+ 	border-radius: 0px;
+ 	color: silver !important;
+ }
+ .form.deprecated .btn-default{
+ 	background-color: rgba(0,0,0,0);
+ 	margin-bottom: 8px;
+ 	padding: 0 0 8px;
+ }
 /*================End Subs Menus================*/
 /*================Scrollers================*/
  .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb, .ace_scrollbar-v, .ace_scrollbar-h{
