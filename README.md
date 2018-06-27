@@ -51,7 +51,7 @@ Please respect my work and don't modify my theme !
 **DETACHED CSS EDITOR**
 ![](https://puu.sh/AMPoo.jpg)
 </details>
-
+<br>
 How to install :
 
 - Download and install BetterDiscord or Zerebos fork : 
