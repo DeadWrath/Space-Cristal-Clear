@@ -1,0 +1,96 @@
+/*================Games================*/
+ .theme-dark .activityFeed-28jde9{
+     background-color: rgba(0,0,0,0.16);
+}
+ .article-FleDq5, .carousel-JbsNzL, .paginationItem-3-MBTL{
+     background-color: rgba(0,0,0,0.48);
+     border: 1px solid silver;
+     box-sizing: border-box;
+     border-radius: 0px;
+}
+ .paginationItem-3-MBTL:after{
+     background: linear-gradient(270deg,transparent 0,rgba(0, 0, 0, 0.06));
+}
+ .theme-dark .dockItem-2kQDqg:hover{
+     background-color: rgba(0,0,0,0.16);
+     border-radius: 0px;
+     border: 1px solid silver;
+}
+ .theme-dark .card-7JP0BX{
+     background-color: rgba(31,31,31,0.32);
+     border-radius: 0px;
+     border: 1px solid silver;
+}
+ .theme-dark .body-SKIE6r{
+     background-color: rgba(0,0,0,0.16);
+}
+/*================End Games================*/
+/*================Private Call================*/
+ .theme-dark .wrapper-29NfPK{
+     background-color: rgba(0,0,0,0.08);
+}
+ .theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r{
+     background-color: rgba(0,0,0,0);
+     border: 1px solid transparent;
+     border-radius: 0px;
+}
+/*================End Private Call================*/
+/*================Profil================*/
+ .root-SR8cQa{
+     background-color: rgba(0,0,0,1);
+}
+ .theme-dark .topSectionNormal-2-vo2m, .theme-dark .body-3ND3kc{
+     background-color: rgba(0,0,0,0);
+}
+/*================End Profil================*/
+/*================Friends Lists================*/
+ .theme-dark .quickswitcher-3JagVE, .theme-dark .input-2VB9rf{
+     background-color: rgba(0,0,0,0.16);
+     border: 1px solid silver;
+}
+ .theme-dark #friends, .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action{
+     background-color: rgba(0,0,0,0);
+}
+ .container-2lgZY8, .channels-Ie2l6A, .theme-dark .headerBar-UHpsPw{
+     background-color: rgba(0,0,0,0.16);
+}
+ .private-channels .channel.selected a{
+     background-color:rgba(0,0,0,0);
+}
+ .private-channels .channel:hover a{
+     background-color: rgba(0,0,0,0.32);
+}
+ .private-channels .channel.selected{
+     background-color: rgba(0,0,0,0.56);
+}
+ .theme-dark .menu-Sp6bN1{
+     background: rgba(0,0,0,0.88) !important;
+     border:1px solid silver;
+}
+ .theme-dark .item-1GzJrl:hover{
+     background-color:rgba(255,255,255,0.08) !important;
+}
+ .theme-dark #friends .tab-bar.tab-bar-desktop .tab-bar-item{
+     font-weight: bold !important;
+     background-color: rgba(0,0,0,0.08);
+}
+ .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected){
+     background-color: rgba(0,0,0,0.64) !important;
+}
+ .theme-dark #friends .tab-bar .tab-bar-item.selected{
+     background-color: rgba(0,0,0,0.64) !important;
+     color: rgba(11,154,23,0.88) !important;
+}
+ .theme-dark .friends-table{
+     background-color: rgba(0,0,0,0.32);
+}
+ .theme-dark #friends .friends-table .friends-row:hover{
+     background: rgba(0,0,0,0.16);
+}
+ #friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-voice-call{
+     margin-left: 0px !important;
+}
+ .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover{
+     background-color: rgba(0,0,0,0.32) !important;
+}
+/*================End Friends Lists================*/

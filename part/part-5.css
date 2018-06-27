@@ -1,0 +1,111 @@
+/*================Search Filter================*/
+ .theme-dark .search .search-bar{
+     border-radius: 0px;
+     background-color: rgba(0,0,0,32);
+     border: 1px solid silver;
+}
+ .theme-dark .searchFilter-2ESiM3{
+     background-color: rgba(0,0,0,0.24);
+     border-radius: 0px;
+}
+ .theme-dark .search-results-wrap{
+     background-color: rgba(0,0,0,0.98);
+     border-left: 1px solid silver;
+     z-index:9;
+}
+ .theme-dark .search-results-wrap .search-header, .theme-dark .search-results-wrap .channel-separator .channel-name{
+     background-color: rgba(0,0,0,0);
+     border-bottom: 1px solid silver;
+}
+ .theme-dark .search-results-wrap .search-result:before{
+     background-image: linear-gradient(0deg, rgba(255,255,255,0), rgba(255,255,255,0.16));
+}
+ .theme-dark .search-results-wrap .search-result:after{
+     background-image: linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255,0.16));
+}
+ .theme-dark .search-results-wrap .search-result .hit{
+     background-color: rgba(0,0,0,0.88);
+     border:1px solid silver !important;
+     border-radius:0px;
+}
+ .theme-dark .search-results-wrap .action-buttons .jump-button{
+     background-color: rgba(0,0,0,0);
+     border:1px solid silver;
+     border-radius:0px;
+}
+ .theme-dark .searchPopout-1vUlP3 {
+     box-shadow: none;
+     background-color: rgba(0,0,0,0.96);
+     border: 1px solid silver;
+     border-radius: 0px;
+}
+/*================End Search Filter================*/
+/*================Subs Menus================*/
+ .emojiPicker-3m1S-j {
+     background-color: rgba(0,0,0,0.32) !important;
+}
+ .search-bar.search-bar-light{
+     background-color: rgba(0,0,0,0) !important;
+}
+ .search-bar.search-bar-light .search-bar-inner{
+     background-color: rgba(255,255,255,0.08) !important;
+     border-radius: 0px !important;
+}
+ .search-bar.search-bar-light input{
+     color: silver !important;
+}
+ .search-bar.search-bar-light .search-bar-inner{
+     background-color: rgba(255,255,255,0.08) !important;
+     border-radius: 0px !important;
+}
+ .emojiPicker-3m1S-j .stickyHeader-1SS0JU{
+     background-color: rgba(255,255,255,0) !important;
+}
+ .emojiPicker-3m1S-j .category-2U57w6{
+     color: silver !important;
+     background-color: rgba(0,0,0,0.88) !important;
+}
+ .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S{
+     background-color: rgba(255,255,255,0.32) !important;
+}
+ .theme-dark.contextMenu-HLZMGh{
+     background-color: rgba(0,0,0,0.96);
+     border-radius: 0px !important;
+     border: 1px solid silver;
+}
+ .bd-blue .tooltip{
+     background-color: rgba(0,0,0,0.88);
+     border-radius: 0px;
+     border: 1px solid silver;
+}
+ .bd-blue .tooltip.tooltip-bottom:after{
+     border-bottom-color: rgba(0,0,0,0.88);
+     border: 1px solid silver;
+}
+ .bd-blue .need-help-modal .header, .form-deprecated .form-inner, .form.deprecated .form-inner, .need-help-modal.deprecated .footer{
+     background-color: rgba(0,0,0,1);
+}
+ .need-help-modal.deprecated .header input[type=text]{
+     border-radius: 0px;
+     background-color: rgba(0,0,0,0);
+     color: silver !important;
+     box-shadow: 0 0 0 0 rgba(0,0,0,0);
+}
+ .small-popout-box{
+     background: RGBA(0,0,0,0.88);
+     border: 1px solid silver !important;
+     box-sizing: border-box;
+     border-radius: 4px;
+}
+ .option-popout .btn-item, .option-popout .btn-item:hover{
+     color: silver;
+}
+/*================End Subs Menus================*/
+/*================Scrollers================*/
+ .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb, .ace_scrollbar-v, .ace_scrollbar-h{
+     display: none;
+}
+ .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece, .ace_scrollbar-inner{
+     display: none;
+}
+/*================End Scrollers================*/

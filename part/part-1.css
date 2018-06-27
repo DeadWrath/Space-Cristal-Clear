@@ -1,0 +1,119 @@
+//META{"name":"SpaceCristalClear","description":"Dark Cristal Clear Theme","author":"EthanMcPhoenix","version":"1.0"}*//
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/*================Fonts Settings================*/
+ *{
+     font-family:'Exo 2', sans-serif !important;
+     border-radius: 0px !important;
+     font-weight:lighter !important;
+     box-sizing:border-box;
+}
+ div>*:not(code) {
+     font-family: 'Exo 2', Whitney, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif !important;
+}
+ .messages .markup:not([data-colour="false"]) {
+     color: silver !important;
+}
+/*================End Fonts Settings================*/
+/*================APP================*/
+ .app, .callou-backdrop, body{
+     background: url(http://puu.sh/ALlhH/9d48b1af38.jpg) !important;
+     background-size: cover !important;
+     background-attachment: fixed !important;
+     background-position: center center !important;
+     background-repeat: no-repeat !important;
+}
+ .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ{
+     background: rgba(0,0,0,0);
+}
+ .appMount-3VJmYg{
+     background-color: rgba(0,0,0,0.32);
+}
+/*================End APP================*/
+/*================Server List================*/
+ .guilds-wrapper{
+     background-color: rgba(0,0,0,0.16);
+}
+ .guild-inner a svg defs path{
+     display:none !important;
+}
+ .guild-inner a svg, .friends-icon:after {
+     display: block;
+     width: 48px;
+     height: 48px;
+     content: '';
+     background-image: url(https://i.imgur.com/l7vNybT.gif) !important;
+     background-size: 124%;
+     background-repeat: no-repeat;
+     background-position: center;
+     border-radius: 0px !important;
+}
+ .guilds-wrapper .guilds-add{
+     background: rgba(0,0,0,0);
+}
+ .guild-inner{
+     border-radius: 0px !important;
+}
+ .guild.selected:before{
+     border-radius: 0px !important;
+     box-sizing:border-box;
+     height: 50px !important;
+     width: 4px !important;
+     top: 20px !important;
+     left: 50px !important;
+     animation: rainbow 8s ease-in-out infinite;
+}
+ @keyframes rainbow {
+     0% {
+        background-color: rgb(255,0,0);}
+     4.16% {
+        background-color: rgb(255,64,0);}
+     8.32% {
+        background-color: rgb(255,128,0);}
+     12.48% {
+        background-color: rgb(255,191,0);}
+     16.64% {
+        background-color: rgb(255,255,0);}
+     20.8% {
+        background-color: rgb(191,255,0);}
+     24.96% {
+        background-color: rgb(128,255,0);}
+     29.12% {
+        background-color: rgb(64,255,0);}
+     33.28% {
+        background-color: rgb(0,255,0);}
+     37.44% {
+        background-color: rgb(0,255,64);}
+     41.6% {
+        background-color: rgb(0,255,128);}
+     45.76% {
+        background-color: rgb(0,255,191);}
+     49.92% {
+        background-color: rgb(0,255,255);}
+     54.08% {
+        background-color: rgb(0,191,255);}
+     58.24% {
+        background-color: rgb(0,128,255);}
+     62.4% {
+        background-color: rgb(0,64,255);}
+     66.56% {
+        background-color: rgb(0,0,255);}
+     70.72% {
+        background-color: rgb(64,0,255);}
+     74.88% {
+        background-color: rgb(128,0,255);}
+     79.04% {
+        background-color: rgb(191,0,255);}
+     83.2% {
+        background-color: rgb(255,0,255);}
+     87.36% {
+        background-color: rgb(255,0,191);}
+     91.52% {
+        background-color: rgb(255,0,128);}
+     95.68% {
+        background-color: rgb(255,0,64);}
+     100% {
+        background-color: rgb(255,0,0);}
+}
+/*================End Server List================*/
