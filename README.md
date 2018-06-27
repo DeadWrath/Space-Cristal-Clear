@@ -4,7 +4,6 @@ Please respect my work and don't modify my theme !
 
 <details>
 <summary>PREVIEW PICS</summary>
-
 **GAMES**
 ![](https://puu.sh/AMPeZ.jpg)
 
@@ -51,23 +50,14 @@ Please respect my work and don't modify my theme !
 
 **DETACHED CSS EDITOR**
 ![](https://puu.sh/AMPoo.jpg)
-
 </details>
-
-
-
-How to install :
-
+>How to install :
 - Download and install BetterDiscord or Zerebos fork : 
-
-    - https://betterdiscord.net/home/
+	- https://betterdiscord.net/home/
     - https://github.com/rauenzi/BetterDiscordApp
-
 - Close and reboot Discord.
-
 ![](https://www.direct-signaletique.com/I-Grande-8075-panneau-de-danger-point-d-exclamation-a14.net.jpg)
-> #THIS ACTION IS VERY IMPORTANT ! On Discord go to settings > Appearance and enable dark theme ! Put fonts to 100 and zoom at 110 !
-
+####THIS ACTION IS VERY IMPORTANT ! On Discord go to settings > Appearance and enable dark theme ! Put fonts to 100 and zoom at 110 !
 - Return to Settings > CustomCSS
 - Copy all the CSS code from :
 	- [my github css page][1]
