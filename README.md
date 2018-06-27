@@ -71,6 +71,7 @@ How to install :
 - Return to Settings > CustomCSS
 - Copy all the CSS code from :
 	- [my github css page][1]
+	or
 	- [this pastebin][2]
 - Paste your clipboard with CRTL+V on the customCSS zone on Discord
 - Do not forgot to click TWICE on SAVE !
