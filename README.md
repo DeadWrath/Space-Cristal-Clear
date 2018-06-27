@@ -62,7 +62,7 @@ Please respect my work and don't modify my theme !
 
 ![](https://www.direct-signaletique.com/I-Grande-8075-panneau-de-danger-point-d-exclamation-a14.net.jpg)
 
-####THIS ACTION IS VERY IMPORTANT ! On Discord go to settings > Appearance and enable dark theme ! Put fonts to 100 and zoom at 110 !
+THIS ACTION IS VERY IMPORTANT ! On Discord go to settings > Appearance and enable dark theme ! Put fonts to 100 and zoom at 110 !
 
 - Return to Settings > CustomCSS
 - Copy all the CSS code from :
