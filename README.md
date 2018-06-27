@@ -1,7 +1,7 @@
 # Space-Cristal-Clear
 A space black cristal clear for a good confort in the night.
 
-How to instal :
+How to install :
 
 - Download and instal BetterDiscord.
 
@@ -9,7 +9,7 @@ How to instal :
 
 - Close and reboot Discord.
 
-/!\THIS ACTION IS VERY IMPORTANT ! ===> On discord go to settings > Appearance and enable dark theme !
+/!\THIS ACTION IS VERY IMPORTANT ! ===> On discord go to settings > Appearance and enable dark theme ! Put fonts to 100 and zoom at 110
 
 - Return to Settings > CustomCSS
 - Paste all the CSS code in and save before quitting.
