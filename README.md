@@ -26,7 +26,7 @@ Please respect my work and don't modify my theme !
 **SERVER SEARCH FINDING SUB-MENU**
 ![](https://puu.sh/AMPl7.jpg)
 
-** SERVER MENTION SUB-MENU**
+**SERVER MENTION SUB-MENU**
 ![](https://puu.sh/AMPll.jpg)
 
 **SERVER USERS LIST**
@@ -53,6 +53,8 @@ Please respect my work and don't modify my theme !
 ![](https://puu.sh/AMPoo.jpg)
 
 </details>
+
+
 
 How to install :
 
