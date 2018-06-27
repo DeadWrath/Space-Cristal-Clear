@@ -3,7 +3,8 @@ A space black cristal clear for a good confort in the night.
 Please respect my work and don't modify my theme !
 
 <details>
-<summary>**=> PREVIEW PICS**</summary>
+<summary>PREVIEW PICS</summary>
+
 **GAMES**
 ![](https://puu.sh/AMPeZ.jpg)
 
