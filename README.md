@@ -1,5 +1,5 @@
 # Space-Cristal-Clear
-A space black cristal clear for a good confort in the night.
+A space black cristal clear theme for optimal night comfort.
 Please respect my work and don't modify my theme !
 
 <details>
