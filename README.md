@@ -52,7 +52,7 @@ Please respect my work and don't modify my theme !
 ![](https://puu.sh/AMPoo.jpg)
 </details>
 
->How to install :
+How to install :
 
 - Download and install BetterDiscord or Zerebos fork : 
 	- https://betterdiscord.net/home/
