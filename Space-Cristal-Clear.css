@@ -255,7 +255,7 @@
     background:rgba(0,0,0,0);
  }
 /*================End Server Channels Column================*/
-/*================Server Chats================*/
+/*================Chats================*/
  .theme-dark .chat, .theme-dark .chat>.content{
      background-color: rgba(0,0,0,0.08) !important;
 }
@@ -317,17 +317,20 @@
      background-color: rgba(0,0,0,0);
 }
  .channelTextArea-1LDbYG{
-     width: 80%;
+     width: 100%;
 }
- .channelTextArea-rNsIhG{
-    margin-right: 15%;
- }
  .autocomplete-1vrmpx{
      border-radius: 0px;
      background-color: rgba(0,0,0,0.96) !important;
      border: 1px solid silver;
 }
-/*================End Server Chats================*/
+ .flex-horizontal>.flex-spacer{
+    margin-right: -191px;
+ }
+ .private>.content>.flex-spacer{
+    margin-right: 0px !important;
+ }
+/*================End Chats================*/
 /*================Server Members List================*/
  .theme-dark .members-1998pB{
      background-color: rgba(0,0,0,0.64);
@@ -382,15 +385,11 @@
  .membersWrap-2h-GB4:hover .membersGroup-v9BXpm{
      display:flex;
 }
- .theme-dark .membersWrap-2h-GB4{
+ .theme-dark .members-1998pB{
      background-color: rgba(0,0,0,0.32) !important;
 }
  .app {
      overflow-x: hidden!important;
-}
- .chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical {
-     margin-right: -210px!important;
-     z-index: 1!important;
 }
 /*================Fin Users Server List Panel Animation================*/
 /*================SETTINGS================*/
@@ -486,6 +485,9 @@
      border: 1px solid silver;
      border-radius: 0px;
 }
+ .search-result-message>.message-group{
+     width:100%;
+ }
 /*================End Search Filter================*/
 /*================Subs Menus================*/
  .emojiPicker-3m1S-j {
@@ -550,14 +552,14 @@
  .create-guild-container.deprecated .create-or-join .form-inner, .create-guild-container.deprecated .action,
  .form.deprecated .control-group input[type=text], .form.deprecated .form-actions,
  .form-deprecated .form-header, .wrapper-O5i5-0 .instantInviteModal-3vhcvC .form-actions{
- 	background-color: rgba(0,0,0,0.16);
- 	border-radius: 0px;
- 	color: silver !important;
+    background-color: rgba(0,0,0,0.16);
+    border-radius: 0px;
+    color: silver !important;
  }
  .form.deprecated .btn-default{
- 	background-color: rgba(0,0,0,0);
- 	margin-bottom: 8px;
- 	padding: 0 0 8px;
+    background-color: rgba(0,0,0,0);
+    margin-bottom: 8px;
+    padding: 0 0 8px;
  }
 /*================End Subs Menus================*/
 /*================Scrollers================*/
