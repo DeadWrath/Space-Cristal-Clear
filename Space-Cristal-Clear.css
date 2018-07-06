@@ -262,11 +262,19 @@
  .theme-dark .title-3qD0b-, .theme-dark .messages-wrapper{
      background-color: rgba(0,0,0,0.13) !important;
 }
- .theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn{
+ .theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn{
      background-color: rgba(0,0,0,0) !important;
      border-radius: 0px !important;
      color: silver !important;
      padding:2px;
+}
+.theme-dark .messages-wrapper .messages .message-group-blocked{
+    border-radius: 8px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-top: none !important;
+    border-bottom: none !important;
+    background-color: rgba(0,0,0,0.24);
 }
  .theme-dark .chat form{
      background-color: rgba(0,0,0,0.08) !important;
@@ -276,11 +284,28 @@
      border: 1px solid silver;
      border-radius: 0px !important;
 }
+.theme-dark .chat .has-more button{
+    background: rgba(0,0,0,0.32);
+    color: silver;
+}
  .avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge{
      border-radius: 0px !important;
 }
- .theme-dark .friends-table .messages .divider:before, .theme-dark .friends-table .messages .divider span, .theme-dark .messages-wrapper .messages .divider:before, .theme-dark .messages-wrapper .messages .divider span{
+ .theme-dark .friends-table .messages .divider:before, .theme-dark .messages-wrapper .messages .divider:before{
      background-color: rgba(0,0,0,0.28);
+}
+.theme-dark .friends-table .messages .divider:not(.red) div, .theme-dark .messages-wrapper .messages .divider:not(.red) div{
+    background-color: silver;
+}
+.theme-dark .messages-wrapper .messages .divider span{
+    color: white;
+    background-color: rgba(0,0,0,1);
+    border-radius: 8px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+.theme-dark .messages-wrapper .messages .divider.divider-red>span{
+    color: rgba(0, 183, 24, 0.84);
 }
  .theme-dark .chat .jump-to-present-bar{
      background-color: rgba(0,0,0,0.96) !important;
@@ -326,6 +351,7 @@
 }
  .flex-horizontal>.flex-spacer{
     margin-right: -191px;
+    background-color: rgba(0,0,0,0.16);
  }
  .private>.content>.flex-spacer{
     margin-right: 0px !important;
