@@ -276,6 +276,16 @@
     border-bottom: none !important;
     background-color: rgba(0,0,0,0.24);
 }
+.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed{
+    background: repeating-linear-gradient(
+    -55deg,
+    rgba(0,0,0,0),
+    rgba(0,0,0,0) 10px,
+    rgba(255,0,0,0.32) 10px,
+    rgba(255,0,0,0.32) 20px
+  );
+    border-color: white;
+}
  .theme-dark .chat form{
      background-color: rgba(0,0,0,0.08) !important;
 }
