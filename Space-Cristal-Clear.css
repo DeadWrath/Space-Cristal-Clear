@@ -36,14 +36,16 @@
  }
 /*================End APP================*/
 /*================Server List================*/
- .guilds-wrapper{
+ .theme-dark .guildsWrapper-5TJh6A{
      background-color: rgba(0,0,0,0.16);
 }
- .guild-inner a svg defs path{
-     display:none !important;
+.guildInner-3DSoA4{
+    background-color: rgba(0,0,0,0) !important;
 }
- .guild-inner a svg, .friends-icon:after {
-     display: block;
+.theme-dark .homeIcon-1FoKUJ{
+    color: transparent;
+}
+.homeIcon-1FoKUJ{
      width: 48px;
      height: 48px;
      content: '';
@@ -51,12 +53,11 @@
      background-size: 124%;
      background-repeat: no-repeat;
      background-position: center;
-     border-radius: 0px !important;
 }
  .guilds-wrapper .guilds-add{
      background: rgba(0,0,0,0);
 }
- .guild-inner{
+ .guildInner-3DSoA4, .guildsAdd-21_IdK{
      border-radius: 0px !important;
 }
  .guild.selected:before{
@@ -120,6 +121,27 @@
      100% {
         background-color: rgb(255,0,0);}
 }
+.create-guild-container.deprecated{
+    background-color: black;
+}
+.create-guild-container.deprecated .create-or-join .actions .or{
+    color: black;
+    filter: invert(100%);
+}
+.create-guild-container.deprecated .create-or-join .form-inner{
+    background-color: rgba(0,0,0,0);
+    border-radius: 0px;
+    color: silver;
+}
+.guild-1EfMGQ .guildsAdd-21_IdK .da-guild .da-guildsAdd{
+    border-radius: 0px !important;
+    border: 1px dotted silver;
+    background: rgba(0,0,0,0);
+    border-color: silver;
+}
+.guildsAddInner-1KMFy-{
+    top: -3px;
+}
 /*================End Server List================*/
 /*================Games================*/
  .theme-dark .activityFeed-28jde9{
@@ -177,9 +199,21 @@
  .root-SR8cQa{
      background-color: rgba(0,0,0,1);
 }
- .theme-dark .topSectionNormal-2-vo2m, .theme-dark .body-3ND3kc{
+ .theme-dark .topSectionNormal-2-vo2m, .theme-dark .body-3ND3kc, .topSectionPlaying-1J5E4n{
      background-color: rgba(0,0,0,0);
 }
+ .lookInverted-2D7oAl.colorBrand-3pXr91{
+    background-color: rgba(0,0,0,0);
+    color: silver;
+    border: 1px solid silver;
+    border-radius: 0px;
+ }
+ .theme-dark .connectedAccount-36nQx7{
+    border-color: silver;
+ }
+ .connectedAccount-36nQx7{
+    border-radius: 0px;
+ }
 /*================End Profil================*/
 /*================Friends Lists================*/
  .theme-dark .quickswitcher-3JagVE, .theme-dark .input-2VB9rf{
@@ -241,6 +275,11 @@
      background-color: rgba(0,0,0,0);
      border-radius: 0px;
 }
+.theme-dark .messageGroupWrapper-o-Zw7G{
+    background-color: rgba(0,0,0,0);
+    border-radius:0px;
+    border: 1px solid silver;
+}
  .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group{
      background-color: rgba(0,0,0,0.32);
      border-radius: 0px;
@@ -275,8 +314,12 @@
  .container-3nXdBP section p{
     color: white !important;
  }
- .popout-3sVMXz section, .popout-3sVMXz header{
+ .container-2x5lvQ section, .container-2x5lvQ header{
     background-color: rgba(0,0,0,1);
+ }
+ .container-2x5lvQ{
+    border:1px solid silver;
+    border-radius: 0px !important;
  }
 /*================End Server Channels Column================*/
 /*================Chats================*/
@@ -440,13 +483,13 @@
      animation: member 300ms ease!important;
      transform: translate(0px)!important;
      background: rgba(0, 0, 0, 0.16)!important;
-     border-left: 1px solid black !important;
+     border-left: 1px solid silver !important;
 }
  .membersWrap-2h-GB4:hover .membersGroup-v9BXpm{
      display:flex;
 }
  .theme-dark .members-1998pB{
-     background-color: rgba(0,0,0,0.32) !important;
+     background-color: rgba(0,0,0,0.88) !important;
 }
  .app {
      overflow-x: hidden!important;
@@ -615,7 +658,7 @@
  .option-popout .btn-item, .option-popout .btn-item:hover{
      color: silver;
 }
- .create-guild-container.deprecated .create-or-join .form-inner, .create-guild-container.deprecated .action,
+ .create-guild-container.deprecated .action,
  .form.deprecated .control-group input[type=text], .form.deprecated .form-actions,
  .form-deprecated .form-header, .wrapper-O5i5-0 .instantInviteModal-3vhcvC .form-actions{
     background-color: rgba(0,0,0,0.16);
@@ -668,11 +711,32 @@
  .theme-dark #autocomplete-popout .row.selected{
     background: linear-gradient(90deg,rgba(0, 0, 0, 1),rgba(255,255,255,0.48));
  }
- .popoutInvert-3UdKhn:not(.popoutBottom-1YbShG).popoutTop-3uu9vG, .popoutInvert-3UdKhn:not(.popoutBottom-1YbShG).popoutTopRight-3BzFIE{
+ .uploadModal-2ifh8j .footer-3mqk7D, .uploadModal-2ifh8j, .popoutInvert-3UdKhn:not(.popoutBottom-1YbShG).popoutTop-3uu9vG, .popoutInvert-3UdKhn:not(.popoutBottom-1YbShG).popoutTopRight-3BzFIE{
     background: rgba(0,0,0,0.64);
  }
  .headerPlaying-j0WQBV{
     background: black;
+ }
+ .uploadModal-2ifh8j .inner-3nWsbo{
+    border: none !important;
+    border-radius: 0px !important;
+ }
+ .uploadModal-2ifh8j .footer-3mqk7D .button, .uploadModal-2ifh8j .footer-3mqk7D .button-primary{
+    background-color: rgba(0,0,0,0);
+    border-radius: 0px;
+    border: 1px solid silver;
+    color: silver;
+ }
+ .premiumPromo-yVfLiA{
+    background-color: rgb(0,0,0);
+    border-radius: 0px;
+    border: 1px solid silver;
+    text-align: center;
+ }
+ .premiumPromo-yVfLiA, .premiumPromoClose-2sqoIR, .premiumPromoDescription-2Mn515{
+    color: silver;
+    opacity: 1;
+
  }
 /*================End Subs Menus================*/
 /*================Scrollers================*/
