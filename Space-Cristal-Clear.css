@@ -71,7 +71,7 @@
      width: 3px !important;
      top: 20px !important;
      left: 50px !important;
-     
+     animation: rainbow 8s ease-in-out infinite;
 }
  @keyframes rainbow {
      0% {
@@ -327,10 +327,10 @@
  }
 /*================End Server Channels Column================*/
 /*================Chats================*/
- .theme-dark .chat, .theme-dark .chat>.content{
+ .theme-dark .content-yTz4x3, .theme-dark .chat-3bRxxu{
      background-color: rgba(0,0,0,0.08) !important;
 }
- .theme-dark .title-3qD0b-, .theme-dark .messages-wrapper{
+ .theme-dark .title-3qD0b-, .theme-dark .messagesWrapper-3lZDfY{
      background-color: rgba(0,0,0,0.13) !important;
 }
  .theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn{
@@ -339,15 +339,19 @@
      color: silver !important;
      padding:2px;
 }
-.theme-dark .messages-wrapper .messages .message-group-blocked{
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-, .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlocked-JqfeE2, .theme-dark .messageGroupBlocked-3wrQQX, .theme-dark .messageGroupBlocked-JqfeE2{
     border-radius: 8px;
     border-right: 1px solid white;
     border-left: 1px solid white;
     border-top: none !important;
     border-bottom: none !important;
     background-color: rgba(0,0,0,0.24);
+    background: rgba(0,0,0,0.24);
 }
-.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed{
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover{
+    background-color: rgba(0,0,0,0.64);
+}
+.theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf{
     background: repeating-linear-gradient(
     -55deg,
     rgba(0,0,0,0),
@@ -357,7 +361,7 @@
   );
     border-color: white;
 }
- .theme-dark .chat form{
+ .theme-dark .chat-3bRxxu form{
      background-color: rgba(0,0,0,0.08) !important;
 }
  .theme-dark .inner-zqa7da{
@@ -378,7 +382,7 @@
 .theme-dark .friends-table .messages .divider:not(.red) div, .theme-dark .messages-wrapper .messages .divider:not(.red) div{
     background-color: silver;
 }
-.theme-dark .messages-wrapper .messages .divider span{
+.theme-dark .divider-3gKybi span{
     color: white;
     background-color: rgba(0,0,0,1);
     border-radius: 8px;
@@ -388,22 +392,23 @@
 .theme-dark .messages-wrapper .messages .divider.divider-red>span{
     color: rgba(0, 183, 24, 0.84);
 }
- .theme-dark .chat .jump-to-present-bar{
+ .theme-dark .jumpToPresentBar-9P20AM{
      background-color: rgba(0,0,0,0.96) !important;
      border: 1px solid silver !important;
-     width:255px;
+     width:155px;
      padding: 0px;
      border-radius: 0px !important;
      position: fixed;
      left:706px;
      bottom:98px;
 }
- .chat .jump-to-present-bar button:first-child{
+ .jumpToPresentBar-9P20AM button:first-child{
      color: rgba(0,0,0,0);
-     display: none;
+     display: none !important;
 }
- .chat .jump-to-present-bar button:last-child{
+ .jumpToPresentBar-9P20AM button:last-child{
      color: rgba(15,151,25,1);
+     text-align: center;
 }
  .chat .new-messages-bar{
      display:none;
@@ -436,6 +441,10 @@
  }
  .private>.content>.flex-spacer{
     margin-right: 0px !important;
+ }
+ .theme-dark .hasMore-3e72_v button{
+    background: rgba(0,0,0,0);
+    border: 1px solid silver;
  }
 /*================End Chats================*/
 /*================Server Members List================*/
@@ -757,5 +766,8 @@
  .bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece{
     background-color: rgba(0,0,0,0);
     border-color: rgba(0,0,0,0);
+}
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece{
+    display:none;
 }
 /*================End Scrollers================*/
