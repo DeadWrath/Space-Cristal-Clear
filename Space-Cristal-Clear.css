@@ -670,7 +670,7 @@
  .bd-blue .need-help-modal .header,
  .form-deprecated .form-inner,
  .need-help-modal.deprecated .footer{
-     background-color: rgba(0,0,0,1);
+     background-color: rgba(0,0,0,1) !important;
 }
  .need-help-modal.deprecated .header input[type=text]{
      border-radius: 0px;
@@ -772,7 +772,9 @@
  .premiumPromo-yVfLiA, .premiumPromoClose-2sqoIR, .premiumPromoDescription-2Mn515{
     color: silver;
     opacity: 1;
-
+ }
+ .theme-dark .keyboardShortcutsModal-3piNz7{
+    background-color: rgba(0,0,0,0.48);
  }
 /*================End Subs Menus================*/
 /*================Scrollers================*/
