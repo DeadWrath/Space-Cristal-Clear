@@ -312,8 +312,8 @@
      border-radius: 0px !important;
 }
 
- .theme-dark .container-2Thooq{
-    background:rgba(0,0,0,0.32);
+ .container-2Thooq{
+    background:rgba(0,0,0,0);
  }
  .container-3nXdBP section p{
     color: white !important;
@@ -339,31 +339,33 @@
      color: silver !important;
      padding:2px;
 }
+.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-, .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlocked-JqfeE2, .theme-dark .messageGroupBlocked-3wrQQX, .theme-dark .messageGroupBlocked-JqfeE2{
+    border-radius: 8px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-top: none !important;
+    border-bottom: none !important;
+    background-color: rgba(0,0,0,0.24);
+    background: rgba(0,0,0,0.24);
+}
 .theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-:hover{
-    background-color: rgba(255,255,255,0.08);
+    background-color: rgba(0,0,0,0.64);
 }
 .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-{
     padding: 4px 0,
 }
-.theme-dark .messageGroupBlocked-3wrQQX .messageGroupBlockedBtn-1PBBh-{
-    background: rgba(0,0,0,0.32);
-}
 .theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf{
-    border-left: 1px solid silver;
-    border-right: 1px solid silver;
-    border-top: none !important;
-    border-bottom: none !important;
-    border-radius: 0px;
-}
-.theme-dark .messageGroupBlocked-3wrQQX,.theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf{background: repeating-linear-gradient(
+    background: repeating-linear-gradient(
     -55deg,
     rgba(0,0,0,0),
     rgba(0,0,0,0) 10px,
-    rgba(255,0,0,0.40) 10px,
-    rgba(255,0,0,0.40) 20px);}
-.theme-dark .messageGroupBlocked-3wrQQX{
-    border: none;
-    border-radius: 0px;
+    rgba(255,0,0,0.32) 10px,
+    rgba(255,0,0,0.32) 20px
+  );
+    border-color: white;
+}
+.theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf{
+
 }
  .theme-dark .chat-3bRxxu form{
      background-color: rgba(0,0,0,0.08) !important;
@@ -399,12 +401,12 @@
  .theme-dark .jumpToPresentBar-9P20AM{
      background-color: rgba(0,0,0,0.96) !important;
      border: 1px solid silver !important;
-     width:260px;
+     width:155px;
      padding: 0px;
      border-radius: 0px !important;
      position: fixed;
      left:706px;
-     bottom:90px;
+     bottom:98px;
 }
  .jumpToPresentBar-9P20AM button:first-child{
      color: rgba(0,0,0,0);
@@ -457,16 +459,6 @@
  .theme-dark .hasMore-3e72_v button{
     background: rgba(0,0,0,0);
     border: 1px solid silver;
- }
- .imageWrapper-2p5ogY, .markup-2BOw-j pre{
-    border-radius: 0px;
- }
- .theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline{
-    background: rgba(0,0,0,1);
- }
- .theme-dark .markup-2BOw-j pre{
-    border-color: silver !important;
-    border:1px solid;
  }
 /*================End Chats================*/
 /*================Server Members List================*/
@@ -795,7 +787,6 @@
  .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb,
  .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track{
     background-color: white;
-    border: 1px solid silver;
 }
  .bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece{
     background-color: rgba(0,0,0,0);
@@ -803,15 +794,5 @@
 }
 .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece{
     display:none;
-}
-.scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
-.scrollerThemed-2oenus.themeGhost-28MSn0.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track{
-    background-color: rgba(0,0,0,1);
-    border:1px solid silver;
-}
-.scrollerThemed-2oenus.themeGhost-28MSn0 .scroller-2FKFPG::-webkit-scrollbar-thumb{
-    border: 1px solid silver !important;
-    background-color: none !important;
-    background:repeating-radial-gradient(   circle,   black,   silver 2px,   black 2px,    silver 2px )
 }
 /*================End Scrollers================*/
