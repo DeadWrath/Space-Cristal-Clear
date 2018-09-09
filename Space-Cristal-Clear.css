@@ -312,7 +312,7 @@
      border-radius: 0px !important;
 }
 
- .theme-dark .container-2Thooq{
+ .theme-dark .container-2Thooq, .container-1UB9sr{
     background:rgba(0,0,0,0.32);
  }
  .container-3nXdBP section p{
@@ -809,7 +809,7 @@
     background-color: rgba(0,0,0,1);
     border:1px solid silver;
 }
-.scrollerThemed-2oenus.themeGhost-28MSn0 .scroller-2FKFPG::-webkit-scrollbar-thumb{
+.scrollerThemed-2oenus.themeGhost-28MSn0 .scroller-2FKFPG::-webkit-scrollbar-thumb, .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb{
     border: 1px solid silver !important;
     background-color: none !important;
     background:repeating-radial-gradient(   circle,   black,   silver 2px,   black 2px,    silver 2px )
