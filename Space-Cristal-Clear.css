@@ -19,7 +19,7 @@
 /*================End Fonts Settings================*/
 /*================APP================*/
  .app, .callou-backdrop, body{
-     background: url(http://puu.sh/ALlhH/9d48b1af38.jpg) !important;
+     background: url(http://puu.sh/BG9ma/384740a70d.jpg) !important;
      background-size: cover !important;
      background-attachment: fixed !important;
      background-position: center center !important;
@@ -33,6 +33,17 @@
 }
  .container-16j22k{
     background-color: rgba(0,0,0,0.80) !important;
+}
+ .form-deprecated .form-inner, .form.deprecated .form-inner{
+    background-color: rgba(0,0,0,0.32);
+}
+ .typeWindows-1za-n7{
+    margin-top: 0px !important;
+    padding-top: 4px;
+    background-color: rgba(0,0,0,0.32);
+ }
+ .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ{
+    background-color: rgba(0,0,0,0.16);
  }
 /*================End APP================*/
 /*================Server List================*/
@@ -227,7 +238,7 @@
  .theme-dark #friends, .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action{
      background-color: rgba(0,0,0,0);
 }
- .container-2lgZY8, .channels-Ie2l6A, .theme-dark .headerBar-UHpsPw{
+ .container-2lgZY8, .theme-dark .headerBar-UHpsPw{
      background-color: rgba(0,0,0,0.16);
 }
  .private-channels .channel.selected a{
@@ -304,9 +315,12 @@
 }
 /*================End Server Pin Messages================*/
 /*================Server Channels Column================*/
- .container-PNkimc{
-     background-color: rgba(0,0,0,0.08) !important;
+ .container-PNkimc, .firefoxFixScrollFlex-cnI2ix, .channels-Ie2l6A{
+     background-color: rgba(0,0,0,0) !important;
 }
+ .channels_Ie216A{
+    background-color: none !important;
+ }
  .contentSelectedText-3wUhMi, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active{
      background-color: rgba(255,255,255,0.08) !important;
      border-radius: 0px !important;
@@ -328,10 +342,10 @@
 /*================End Server Channels Column================*/
 /*================Chats================*/
  .theme-dark .content-yTz4x3, .theme-dark .chat-3bRxxu{
-     background-color: rgba(0,0,0,0.08) !important;
+     background-color: rgba(0,0,0,0) !important;
 }
  .theme-dark .title-3qD0b-, .theme-dark .messagesWrapper-3lZDfY{
-     background-color: rgba(0,0,0,0.13) !important;
+     background-color: rgba(0,0,0,0) !important;
 }
  .theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn{
      background-color: rgba(0,0,0,0) !important;
@@ -355,12 +369,13 @@
     border-bottom: none !important;
     border-radius: 0px;
 }
-.theme-dark .messageGroupBlocked-3wrQQX,.theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf{background: repeating-linear-gradient(
-    -55deg,
+.theme-dark .messageGroupBlocked-3wrQQX,.theme-dark .messageGroupBlocked-3wrQQX.revealed-1_RKsf{
+    background: repeating-linear-gradient(-55deg,
     rgba(0,0,0,0),
     rgba(0,0,0,0) 10px,
     rgba(255,0,0,0.40) 10px,
-    rgba(255,0,0,0.40) 20px);}
+    rgba(255,0,0,0.40) 20px);
+}
 .theme-dark .messageGroupBlocked-3wrQQX{
     border: none;
     border-radius: 0px;
@@ -388,7 +403,7 @@
 }
 .theme-dark .divider-3gKybi span{
     color: white;
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(0,0,0,0);
     border-radius: 8px;
     border-right: 1px solid white;
     border-left: 1px solid white;
@@ -538,7 +553,7 @@
      background: rgba(0,0,0,0.32);
 }
  .side-8zPYf6 .itemSelected-1qLhcL, .lookFilled-1Gx00P.colorBrand-3pXr91, .lookFilled-1Gx00P.colorBrand-3pXr91:hover{
-     background-color: rgba(114, 137, 218,0.32) !important;
+     background-color: rgba(0,0,0,0) !important;
      border-radius: 0px;
 }
  .themeDefault-24hCdX.valueChecked-m-4IJZ{
@@ -558,9 +573,14 @@
 }
  #bd-settings-sidebar .ui-tab-bar-item.selected{
     background-color: rgba(0,0,0,0);
-    border: 1px solid silver;
     border-radius: 0px;
  }
+ .ui-standard-siderbar-view .content-column.default{
+    background:linear-gradient(90deg,rgba(0, 255, 245, 0.24) 1%,rgba(0,0,0,0)99%);
+ }
+ .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected, .side-8zPYf6 .itemSelected-1qLhcL{
+    background: linear-gradient(90deg,rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,255,245,0.32));
+}
 /*================End SETTINGS================*/
 /*================Custom CSS Editor DETACHED================*/
  #bd-customcss-detach-container, .ace-monokai, .ace-monokai .ace_gutter,.content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls{
@@ -699,6 +719,7 @@
  .form.deprecated .control-group input[type=text],
  .form.deprecated .form-actions,
  .form-deprecated .form-header,
+ .form-deprecated .form-inner, .form.deprecated .form-inner,
  .wrapper-O5i5-0 .instantInviteModal-3vhcvC .form-actions{
     background-color: rgba(0,0,0,0.16);
     border-radius: 0px;
