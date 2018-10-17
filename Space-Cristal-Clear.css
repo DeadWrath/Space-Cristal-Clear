@@ -29,7 +29,7 @@
      background: rgba(0,0,0,0);
 }
  .appMount-3VJmYg{
-     background-color: rgba(0,0,0,0.32);
+     background-color: rgba(0,0,0,0.56);
 }
  .container-16j22k{
     background-color: rgba(0,0,0,0.80) !important;
@@ -43,7 +43,7 @@
     background-color: rgba(0,0,0,0.32);
  }
  .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ{
-    background-color: rgba(0,0,0,0.16);
+    background-color: rgba(0,0,0,0.32);
  }
 /*================End APP================*/
 /*================Server List================*/
@@ -158,15 +158,40 @@
     top: -3px;
 }
 /*================End Server List================*/
-/*================Games================*/
- .theme-dark .activityFeed-28jde9{
-     background-color: rgba(0,0,0,0.16);
+/*================Games / Store / library================*/
+ .theme-dark .activityFeed-28jde9, .theme-dark .applicationStore-1pNvnv, .theme-dark .gameLibrary-TTDw4Y{
+     background-color: rgba(0,0,0,0);
+}
+.theme-dark .header-39GIC8{
+    background-color:rgba(0,0,0,0.8);
+}
+.theme-dark .itemBackground-1jfD8p:before, .theme-dark .mediaDescription-31GsyQ{
+    background: rgba(0,0,0,0) !important;
 }
  .article-FleDq5, .carousel-JbsNzL, .paginationItem-3-MBTL{
      background-color: rgba(0,0,0,0.48);
      border: 1px solid silver;
      box-sizing: border-box;
      border-radius: 0px;
+}
+.theme-dark .premium-39U29H, .theme-light .premium-39U29H{
+    background-image: linear-gradient(90deg,rgba(115, 142, 245, 0),rgba(179, 174, 255, 0));
+}
+.theme-dark .tileWrapper-2khh-w{
+    background-color: rgba(0,0,0,0.48);
+    border-radius: 0px !important;
+}
+.theme-dark .description-1eVELi{
+    box-sizing: border-box !important;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+.theme-dark .tileMedia-24cT6_{
+    background-color: rgba(0,0,0,1);
+}
+.theme-dark .mediaFade-4Pqtcc{
+    background: linear-gradient(180deg,transparent 90%,rgba(0,0,0,1))
 }
  .paginationItem-3-MBTL:after{
      background: linear-gradient(270deg,transparent 0,rgba(0, 0, 0, 0.06));
@@ -175,6 +200,9 @@
      background-color: rgba(0,0,0,0.16);
      border-radius: 0px;
      border: 1px solid silver;
+}
+.blog-2nw4E8{
+    background:linear-gradient(-270deg,rgba(114, 137, 218, 0),rgba(116, 142, 245, 0.54));
 }
  .theme-dark .card-7JP0BX{
      background-color: rgba(31,31,31,0.32);
@@ -192,12 +220,23 @@
  .theme-dark .header-1RC2Wb{
     background-color: rgb(0,0,0);
 }
+.carousel-2WxMes{
+    background-color: rgba(0,0,0,1);
+}
  .headerButtonColor-G7_f-V, .theme-dark .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover, .theme-light .lookFilled-1Gx00P.hoverBrand-1_Fxlk.hasHover-3X1-zV:hover{
     background-color: rgba(0,0,0,0.32);
     border: 1px solid silver;
 }
  .theme-dark .header-1RC2Wb:hover{
     background-color: rgba(0,0,0,0.32);
+ }
+ .paginationItem-2lUq0s:after{
+    background: linear-gradient(270deg,transparent 0,rgb(0, 0, 0));
+    border-radius: 0px;
+ }
+ .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6{
+    background-color: rgba(0,255,245,0.32);
+    border-radius: 0px;
  }
 /*================End Games================*/
 /*================Private Call================*/
@@ -241,11 +280,9 @@
  .container-2lgZY8, .theme-dark .headerBar-UHpsPw{
      background-color: rgba(0,0,0,0.16);
 }
- .private-channels .channel.selected a{
-     background-color:rgba(0,0,0,0);
-}
- .private-channels .channel:hover a{
-     background-color: rgba(0,0,0,0.32);
+.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a{
+    background: linear-gradient(90deg,transparent 90%,rgba(0,255,245,0.32));
+    border-radius: 0px !important;
 }
  .private-channels .channel.selected{
      background-color: rgba(0,0,0,0.56);
@@ -269,7 +306,7 @@
      color: rgba(11,154,23,0.88) !important;
 }
  .theme-dark .friends-table{
-     background-color: rgba(0,0,0,0.32);
+     background-color: rgba(0,0,0,0);
 }
  .theme-dark #friends .friends-table .friends-row:hover{
      background: rgba(0,0,0,0.16);
@@ -608,10 +645,14 @@
 }
 /*================End Custome CSS Editor DETACHED================*/
 /*================Search Filter================*/
- .theme-dark .search .search-bar{
+ .search-bar{
      border-radius: 0px;
-     background-color: rgba(0,0,0,32);
+     background-color: rgba(0,0,0,0.32);
      border: 1px solid silver;
+}
+.search-bar input{
+    color: silver !important;
+    background: rgba(0,0,0,0);
 }
  .theme-dark .searchFilter-2ESiM3{
      background-color: rgba(0,0,0,0.24);
@@ -650,6 +691,9 @@
 }
  .search-result-message>.message-group{
      width:100%;
+ }
+ .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3{
+    background-color: rgba(0,0,0,0);
  }
 /*================End Search Filter================*/
 /*================Subs Menus================*/
@@ -816,7 +860,6 @@
  .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb,
  .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track{
     background-color: white;
-    border: 1px solid silver;
 }
  .bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece{
     background-color: rgba(0,0,0,0);
@@ -827,12 +870,10 @@
 }
 .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
 .scrollerThemed-2oenus.themeGhost-28MSn0.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track{
-    background-color: rgba(0,0,0,1);
-    border:1px solid silver;
+    background:radial-gradient(circle,rgba(0,255,245,0.48),rgba(0,0,0,0));
 }
 .scrollerThemed-2oenus.themeGhost-28MSn0 .scroller-2FKFPG::-webkit-scrollbar-thumb, .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb{
-    border: 1px solid silver !important;
     background-color: none !important;
-    background:repeating-radial-gradient(   circle,   black,   silver 2px,   black 2px,    silver 2px )
+    background:radial-gradient(circle,rgba(0,255,245,0.48),rgba(0,0,0,0));
 }
 /*================End Scrollers================*/
