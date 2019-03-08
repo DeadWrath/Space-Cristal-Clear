@@ -19,7 +19,7 @@
 /*================End Fonts Settings================*/
 /*================APP================*/
  .app, .callou-backdrop, body{
-     background: url(http://puu.sh/BG9ma/384740a70d.jpg) !important;
+     background: url(http://puu.sh/CX5kq/b48e2de7c9.jpg) !important;
      background-size: cover !important;
      background-attachment: fixed !important;
      background-position: center center !important;
@@ -28,8 +28,8 @@
  .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ{
      background: rgba(0,0,0,0);
 }
- .appMount-3VJmYg{
-     background-color: rgba(0,0,0,0.56);
+ .appMount-3lHmkl{
+     background-color: rgba(0,0,0,0);
 }
  .container-16j22k{
     background-color: rgba(0,0,0,0.80) !important;
@@ -40,23 +40,23 @@
  .typeWindows-1za-n7{
     margin-top: 0px !important;
     padding-top: 4px;
-    background-color: rgba(0,0,0,0.32);
+    background-color: rgba(0,0,0,0.64);
  }
  .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ{
     background-color: rgba(0,0,0,0.32);
  }
 /*================End APP================*/
 /*================Server List================*/
- .theme-dark .guildsWrapper-5TJh6A{
+ .theme-dark .wrapper-1Rf91z{
      background-color: rgba(0,0,0,0.16);
 }
-.guildInner-3DSoA4{
+.guildInner-3DSoA4,.homeButton-2Cw51C{
     background-color: rgba(0,0,0,0) !important;
 }
 .theme-dark .homeIcon-1FoKUJ{
     color: transparent;
 }
-.homeIcon-1FoKUJ{
+.homeIcon-tEMBK1{
      width: 48px;
      height: 48px;
      content: '';
@@ -64,18 +64,19 @@
      background-size: 124%;
      background-repeat: no-repeat;
      background-position: center;
+     color: rgba(0,0,0,0);
 }
  .guilds-wrapper .guilds-add{
      background: rgba(0,0,0,0);
 }
- .guildInner-3DSoA4, .guildsAdd-21_IdK{
+ .guildInner-3DSoA4, .guildsAdd-21_IdK, .wrapper-2lTRaf{
      border-radius: 0px !important;
 }
 .theme-dark .guild-1EfMGQ .selected-ML3OIq:before{
     animation: rainbow 8s ease-in-out infinite;
     background-color: none !important;
 }
-.guild-1EfMGQ.selected-ML3OIq:before{
+.selected-nT-gM3:before{
      border-radius: 0px !important;
      box-sizing:border-box;
      height: 50px !important;
@@ -83,6 +84,16 @@
      top: 20px !important;
      left: 50px !important;
      animation: rainbow 8s ease-in-out infinite;
+}
+.unread-2OHH1w:before{
+    border-radius: 0px !important;
+     box-sizing:border-box;
+     height: 50px !important;
+     width: 3px !important;
+     top: 20px !important;
+     left: 50px !important;
+     animation: rainbow 2s ease-in-out infinite;
+     margin-top: -19px;
 }
  @keyframes rainbow {
      0% {
@@ -136,26 +147,10 @@
      100% {
         background-color: rgb(255,0,0);}
 }
-.create-guild-container.deprecated{
-    background-color: black;
-}
-.create-guild-container.deprecated .create-or-join .actions .or{
-    color: black;
-    filter: invert(100%);
-}
-.create-guild-container.deprecated .create-or-join .form-inner{
-    background-color: rgba(0,0,0,0);
-    border-radius: 0px;
-    color: silver;
-}
-.guild-1EfMGQ .guildsAdd-21_IdK .da-guild .da-guildsAdd{
-    border-radius: 0px !important;
-    border: 1px dotted silver;
+.circleIconButton-jET_ig, .theme-dark .circleIconButton-jET_ig{
     background: rgba(0,0,0,0);
-    border-color: silver;
-}
-.guildsAddInner-1KMFy-{
-    top: -3px;
+    color: silver;
+    border: none;
 }
 /*================End Server List================*/
 /*================Games / Store / library================*/
@@ -174,12 +169,28 @@
      box-sizing: border-box;
      border-radius: 0px;
 }
+.article-3kb3qm{
+    background-color: rgba(0,0,0,0);
+}
+.carousel-2WxMes{
+    border-radius: none;
+}
 .theme-dark .premium-39U29H, .theme-light .premium-39U29H{
     background-image: linear-gradient(90deg,rgba(115, 142, 245, 0),rgba(179, 174, 255, 0));
 }
 .theme-dark .tileWrapper-2khh-w{
-    background-color: rgba(0,0,0,0.48);
+    background-color: rgba(0,0,0,0.45);
     border-radius: 0px !important;
+}
+.theme-dark .applicationTile-1Goy1W:hover{
+    background-color: rgba(0,255,245,0.32) !important;
+}
+.theme-dark .popout-2xBvMR, .theme-dark .root-1bFE0x, .theme-dark .bodySection-jqkkIP, .theme-light .bodySection-jqkkIP, .theme-dark .card-NB61oR, .theme-dark .row-1bU71H{
+    background-color: rgba(0,0,0,0.88);
+    border-radius: 0px !important;
+}
+.theme-dark .bodySection-jqkkIP, .theme-light .bodySection-jqkkIP{
+    border-top-color: rgba(0,255,245,0.32);
 }
 .theme-dark .description-1eVELi{
     box-sizing: border-box !important;
@@ -238,6 +249,40 @@
     background-color: rgba(0,255,245,0.32);
     border-radius: 0px;
  }
+ .theme-dark .root-1BQpZw{
+    background-color: rgba(0,0,0,0);
+ }
+ .theme-dark .itemBackground-2vEldQ:before{
+    background: rgba(0,0,0,0);
+ }
+ .theme-dark .tile-2OwFgW{
+    background-color: rgba(0,0,0,0);
+    border-radius: none;
+ }
+ .theme-dark .description-3rB3Rp{
+    background:-webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(45%,rgba(0, 0, 0, 0.75)),to(#000000))
+ }
+ .theme-dark .searchBox-3Y2Vi7{
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 0px;
+    border: 1px solid silver;
+ }
+ .theme-dark .popout-2sKjHu{
+    background-color: rgba(0,0,0,0.64)!important;
+ }
+ .theme-dark .tile-2OwFgW:hover{
+    background-color: rgba(0,0,0,0);
+ }
+ .arrow-3jRqK8{
+    background-color: rgb(0,0,0);
+    opacity: 1;
+ }
+ .theme-dark .item-2yFVoY{
+    background-color: rgba(0,0,0,0.48);
+ }
+ .theme-dark .libraryFilterInput-3JzqZD{
+    background-color: rgba(0,0,0,0);
+ }
 /*================End Games================*/
 /*================Private Call================*/
  .theme-dark .wrapper-29NfPK, .video-1FfuMD{
@@ -269,7 +314,7 @@
     border-radius: 0px;
  }
 /*================End Profil================*/
-/*================Friends Lists================*/
+/*================Private Channel Column================*/
  .theme-dark .quickswitcher-3JagVE, .theme-dark .input-2VB9rf{
      background-color: rgba(0,0,0,0.16);
      border: 1px solid silver;
@@ -317,7 +362,13 @@
  .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover{
      background-color: rgba(0,0,0,0.32) !important;
 }
-/*================End Friends Lists================*/
+.searchBar-2_Yu-C{
+    background-color: rgba(0,0,0,0);
+}
+.theme-dark .container-3gCOGc{
+    background-color: rgba(0,0,0,0);
+}
+/*================End Private Channel Column================*/
 /*================Server Pin Messages================*/
  .theme-dark .messagesPopoutWrap-1MQ1bW{
      border-radius: 0px;
@@ -352,7 +403,7 @@
 }
 /*================End Server Pin Messages================*/
 /*================Server Channels Column================*/
- .container-PNkimc, .firefoxFixScrollFlex-cnI2ix, .channels-Ie2l6A{
+ .container-PNkimc, .channels-Ie2l6A, .firefoxFixScrollFlex-cnI2ix{
      background-color: rgba(0,0,0,0) !important;
 }
  .channels_Ie216A{
@@ -499,6 +550,9 @@
      background-color: rgba(0,0,0,0.96) !important;
      border: 1px solid silver;
 }
+.theme-dark .selectorSelected-1_M1WV{
+    background-color: rgba(0,155,145,0.4);
+}
  .flex-horizontal>.flex-spacer{
     margin-right: -191px;
     background-color: rgba(0,0,0,0.16);
@@ -519,6 +573,30 @@
  .theme-dark .markup-2BOw-j pre{
     border-color: silver !important;
     border:1px solid;
+ }
+ .theme-dark .container-3ayLPN{
+    background-color: rgba(0,0,0,0.48);
+ }
+ .theme-dark .option-96V44q:after{
+    background: none;
+ }
+ .theme-dark .calendarPicker-2yf6Ci .react-datepicker,
+ .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header,
+ .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--disabled,
+ .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--outside-month,
+ .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled,
+ .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover,
+ .theme-dark .searchResultsWrap-2DKFzt, .theme-dark .searchHeader-1l-wpR,
+ .theme-dark .channelSeparator-1X1FuH .channelName-1QajIf{
+    background-color: rgba(0,0,0,0);
+    border-radius: 0px;
+ }
+ .theme-dark .searchResult-3pzFAB:before, .theme-dark .searchResult-3pzFAB:after{
+    background-image:linear-gradient(0deg,rgba(0,0,0,0),rgba(0,0,0,0));
+ }
+ .theme-dark .searchResult-3pzFAB .hit-NLlWXA{
+    background-color: rgba(0,0,0,0.64);
+    box-shadow: 0 0 0 0 rgba(0,0,0,0);
  }
 /*================End Chats================*/
 /*================Server Members List================*/
@@ -583,30 +661,37 @@
 }
 /*================Fin Users Server List Panel Animation================*/
 /*================SETTINGS================*/
- .theme-dark .ui-standard-sidebar-view{
+ .theme-dark .standardSidebarView-3F1I7i, .theme-dark .sidebarRegion-VFTUkN, .theme-dark .contentRegion-3nDuYy{
      background: rgba(0,0,0,0) !important;
-}
- .theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view .content-region{
-     background: rgba(0,0,0,0.32);
 }
  .side-8zPYf6 .itemSelected-1qLhcL, .lookFilled-1Gx00P.colorBrand-3pXr91, .lookFilled-1Gx00P.colorBrand-3pXr91:hover{
      background-color: rgba(0,0,0,0) !important;
      border-radius: 0px;
 }
- .themeDefault-24hCdX.valueChecked-m-4IJZ{
+ .themeDefault-24hCdX.valueChecked-m-4IJZ, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked{
      background-color: rgba(20,150,20,0.32);
 }
  .side-8zPYf6 .item-PXvHYJ{
      border-radius: 0px !important;
 }
- .themeDefault-24hCdX{
+ .themeDefault-24hCdX, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch{
      background-color: rgba(255,5,5,0.32);
 }
  .theme-dark .user-settings-games .not-detected, .theme-light .user-settings-games .not-detected{
      background-color: rgba(49,49,49,0.32);
 }
- .bd-blue *[style*="background-color: rgb(114, 137, 218)"]{
-     background-color: rgba(58,113,193,0.32) !important;
+ .bd-blue *[style*="background-color: rgb(114, 137, 218)"], .selected-mKYnfr.option-n0icdO{
+     background-color: rgba(0,255,245,0.32) !important;
+}
+.theme-dark .bubble-3we2di{
+    background-color: rgba(0,0,0,0.88);
+    border-radius: 0px;
+}
+.theme-dark .bubble-3we2di:before{
+    border-top-color: rgba(0,255,245,0.32) !important;
+}
+.bd-blue *[style*="border-color: rgb(114, 137, 218)"], .wrapper-3jrx9n{
+     border-color: rgba(0,255,245,0.32) !important;
 }
  #bd-settings-sidebar .ui-tab-bar-item.selected{
     background-color: rgba(0,0,0,0);
@@ -616,7 +701,31 @@
     background:linear-gradient(90deg,rgba(0, 255, 245, 0.24) 1%,rgba(0,0,0,0)99%);
  }
  .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected, .side-8zPYf6 .itemSelected-1qLhcL{
-    background: linear-gradient(90deg,rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,255,245,0.32));
+    background: linear-gradient(90deg,rgba(0,0,0,0)75%,rgba(0,255,245,0.32));
+}
+.option-n0icdO{
+    background-color: rgba(114,118,125,0.48);
+    border-radius: 0px !important;
+}
+.wrapper-3jrx9n{
+    border-radius: 0px !important;
+}
+.theme-dark .description-3_Ncsb, .theme-dark .labelDescriptor-1PqHgD{
+    color: white !important;
+}
+.barFill-23-gu-, .theme-dark .bar-2Qqk5Z{
+    background: rgba(0,155,145,0.32);
+}
+.theme-dark .select-2TCrqx .Select-control, .theme-dark .select-2TCrqx .Select-control:hover, .theme-dark .select-2TCrqx .is-focused .Select-control{
+    border: 1px solid rgb(0,155,145);
+}
+.Select .Select-control{
+    border-radius: 0px !important;
+}
+
+.theme-dark .select-2TCrqx .Select-menu-outer{
+    background:rgba(0,0,0,0.64);
+    border-color:rgb(0,255,245); 
 }
 /*================End SETTINGS================*/
 /*================Custom CSS Editor DETACHED================*/
@@ -641,7 +750,7 @@
      border: 1px solid;
 }
  .ui-standard-sidebar-view #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover{
-     background: rgba(56,56,56,0.88);
+     background: rgba(0,0,0,0);
 }
 /*================End Custome CSS Editor DETACHED================*/
 /*================Search Filter================*/
@@ -697,10 +806,18 @@
  }
 /*================End Search Filter================*/
 /*================Subs Menus================*/
- .emojiPicker-3m1S-j {
-     background-color: rgba(0,0,0,0.80) !important;
-     border: 1px solid silver;
-}
+ .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container,
+ .bda-dark .emoji-picker, .bda-dark .emoji-picker .category{
+    background-color: rgba(0,0,0,0.40);
+ }
+ .searchBar-2_Yu-C.searchBarLight-1NxoDG, .emojiPicker-3m1S-j .stickyHeader-1SS0JU{
+    background-color: rgba(0,0,0,0);
+    background: rgba(0,0,0,0);
+ }
+
+ .bda-dark .emojiPicker-3m1S-j .category-2U57w6{
+    color: silver;
+ }
  .search-bar.search-bar-light{
      background-color: rgba(0,0,0,0) !important;
 }
@@ -714,16 +831,6 @@
  .search-bar.search-bar-light .search-bar-inner{
      background-color: rgba(255,255,255,0.08) !important;
      border-radius: 0px !important;
-}
- .emojiPicker-3m1S-j .stickyHeader-1SS0JU{
-     background-color: rgba(255,255,255,0) !important;
-}
- .emojiPicker-3m1S-j .category-2U57w6{
-     color: silver !important;
-     background-color: rgba(0,0,0,0.88) !important;
-}
- .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S{
-     background-color: rgba(255,255,255,0.32) !important;
 }
  .theme-dark.contextMenu-HLZMGh{
      background-color: rgba(0,0,0,0.96);
@@ -849,6 +956,13 @@
  .theme-dark .keyboardShortcutsModal-3piNz7{
     background-color: rgba(0,0,0,0.48);
  }
+ .theme-dark .option-1l2vXE{
+    background-color: rgba(0,0,0,0);
+ }
+ .theme-dark .searchBar-1MOL6S{
+    background-color: rgba(0,0,0,0);
+    border:1px solid silver;
+ }
 /*================End Subs Menus================*/
 /*================Scrollers================*/
  .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb, .ace_scrollbar-v, .ace_scrollbar-h{
@@ -859,21 +973,29 @@
 }
  .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb,
  .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track{
-    background-color: white;
+    background-color: transparent;
 }
- .bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece{
+ .bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece,  .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
+.scrollerThemed-2oenus.themeGhost-28MSn0.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track
+{
     background-color: rgba(0,0,0,0);
     border-color: rgba(0,0,0,0);
 }
 .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece{
     display:none;
 }
-.scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
-.scrollerThemed-2oenus.themeGhost-28MSn0.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track{
+.scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb{
     background:radial-gradient(circle,rgba(0,255,245,0.48),rgba(0,0,0,0));
 }
 .scrollerThemed-2oenus.themeGhost-28MSn0 .scroller-2FKFPG::-webkit-scrollbar-thumb, .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb{
     background-color: none !important;
     background:radial-gradient(circle,rgba(0,255,245,0.48),rgba(0,0,0,0));
+}
+.scroller-2FKFPG::-webkit-scrollbar{
+    width: 7px;
+}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece{
+    background-color: rgba(0,0,0,0);
+    border: none;
 }
 /*================End Scrollers================*/
