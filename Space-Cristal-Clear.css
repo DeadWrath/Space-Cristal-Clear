@@ -598,6 +598,15 @@
     background-color: rgba(0,0,0,0.64);
     box-shadow: 0 0 0 0 rgba(0,0,0,0);
  }
+ .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9{
+    background-color: rgba(0,0,0,0.48);
+    border: 1px solid silver;
+ }
+ .theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:before{
+    content: "SPOILER ALERT !";
+    color: red;
+    margin: 0 50 0 50;
+ }
 /*================End Chats================*/
 /*================Server Members List================*/
  .theme-dark .members-1998pB{
@@ -739,11 +748,6 @@
      background-color: rgba(255,255,255,0.32);
      border-radius: 0px !important;
 }
- .ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button{
-     background: rgba(0,0,0,0.88);
-     border: 1px solid silver;
-     border-radius: 0px !important;
-}
  .bd-blue .checkbox .checkbox-inner input[type=checkbox]:checked+span{
      background-color: rgba(0,0,0,0);
      border-color: silver;
@@ -751,6 +755,9 @@
 }
  .ui-standard-sidebar-view #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover{
      background: rgba(0,0,0,0);
+}
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button{
+    background: rgba(0,0,0,0);
 }
 /*================End Custome CSS Editor DETACHED================*/
 /*================Search Filter================*/
@@ -763,6 +770,11 @@
     color: silver !important;
     background: rgba(0,0,0,0);
 }
+ .theme-dark .search-2oPWTC .searchBar-3dMhjb{
+    background-color: rgba(0,0,0,0);
+    border: 1px solid silver;
+    border-radius: 0px;
+ }
  .theme-dark .searchFilter-2ESiM3{
      background-color: rgba(0,0,0,0.24);
      border-radius: 0px;
@@ -962,6 +974,12 @@
  .theme-dark .searchBar-1MOL6S{
     background-color: rgba(0,0,0,0);
     border:1px solid silver;
+ }
+ .theme-dark .card-FDVird:before{
+    background-color: rgba(0,0,0,0.4);
+ }
+ .card-FDVird:before{
+    border-radius: 0px;
  }
 /*================End Subs Menus================*/
 /*================Scrollers================*/
