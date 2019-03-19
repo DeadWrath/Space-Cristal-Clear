@@ -152,6 +152,15 @@
     color: silver;
     border: none;
 }
+/*Server Discovery*/
+.theme-dark .pageWrapper-1PgVDX{
+    background-color: rgba(0,0,0,0);
+}
+.theme-dark .wrapper-39oAo3{
+    background-color: rgba(0,0,0,0.48);
+    border: 1px solid silver;
+    border-radius: 0px;
+}
 /*================End Server List================*/
 /*================Games / Store / library================*/
  .theme-dark .activityFeed-28jde9, .theme-dark .applicationStore-1pNvnv, .theme-dark .gameLibrary-TTDw4Y{
@@ -981,6 +990,18 @@
  .card-FDVird:before{
     border-radius: 0px;
  }
+ .theme-light .wrapper-2ZbzR9{
+    background: rgba(0,0,0,0.48);
+ }
+ .theme-dark .action-1lSjCi, .theme-light .action-1lSjCi{
+    background: rgba(0,0,0,0);
+    border: 1px solid silver;
+ }
+ .theme-dark .container-3cGP6G{
+    background: rgba(0,0,0,0.4);
+    border: 1px solid silver;
+    border-radius: 0px;
+ }
 /*================End Subs Menus================*/
 /*================Scrollers================*/
  .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb, .ace_scrollbar-v, .ace_scrollbar-h{
@@ -1015,5 +1036,9 @@
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece{
     background-color: rgba(0,0,0,0);
     border: none;
+}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb{
+    background-color: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
 }
 /*================End Scrollers================*/
