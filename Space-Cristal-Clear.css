@@ -47,14 +47,16 @@
  }
 /*================End APP================*/
 /*================Server List================*/
- .theme-dark .wrapper-1Rf91z{
-     background-color: rgba(0,0,0,0.16);
+.theme-dark .wrapper-1Rf91z, .theme-light .wrapper-1Rf91z{
+    background-color: rgba(0,0,0,0);
 }
-.guildInner-3DSoA4,.homeButton-2Cw51C{
-    background-color: rgba(0,0,0,0) !important;
-}
-.theme-dark .homeIcon-1FoKUJ{
-    color: transparent;
+.item-2hkk8m{
+    animation: pulse 40s ease-in-out infinite;
+    background-color: none !important;
+    width: 8px;
+    left: 8px;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
 }
 .homeIcon-tEMBK1{
      width: 48px;
@@ -66,110 +68,66 @@
      background-position: center;
      color: rgba(0,0,0,0);
 }
- .guilds-wrapper .guilds-add{
-     background: rgba(0,0,0,0);
+.pill-1m5BUr{
+    left: 0px !important;
 }
- .guildInner-3DSoA4, .guildsAdd-21_IdK, .wrapper-2lTRaf{
-     border-radius: 0px !important;
+.wrapper-sa6paO{
+    width: 8px;
 }
 .theme-dark .guild-1EfMGQ .selected-ML3OIq:before{
-    animation: rainbow 8s ease-in-out infinite;
     background-color: none !important;
 }
-.selected-nT-gM3:before{
-     border-radius: 0px !important;
-     box-sizing:border-box;
-     height: 50px !important;
-     width: 3px !important;
-     top: 20px !important;
-     left: 50px !important;
-     animation: rainbow 8s ease-in-out infinite;
-}
-.unread-2OHH1w:before{
-    border-radius: 0px !important;
-     box-sizing:border-box;
-     height: 50px !important;
-     width: 3px !important;
-     top: 20px !important;
-     left: 50px !important;
-     animation: rainbow 2s ease-in-out infinite;
-     margin-top: -19px;
-}
- @keyframes rainbow {
+ @keyframes pulse {
      0% {
-        background-color: rgb(255,0,0);}
-     4.16% {
-        background-color: rgb(255,64,0);}
-     8.32% {
-        background-color: rgb(255,128,0);}
-     12.48% {
-        background-color: rgb(255,191,0);}
-     16.64% {
-        background-color: rgb(255,255,0);}
-     20.8% {
-        background-color: rgb(191,255,0);}
-     24.96% {
-        background-color: rgb(128,255,0);}
-     29.12% {
-        background-color: rgb(64,255,0);}
-     33.28% {
-        background-color: rgb(0,255,0);}
-     37.44% {
-        background-color: rgb(0,255,64);}
-     41.6% {
-        background-color: rgb(0,255,128);}
-     45.76% {
-        background-color: rgb(0,255,191);}
-     49.92% {
-        background-color: rgb(0,255,255);}
-     54.08% {
-        background-color: rgb(0,191,255);}
-     58.24% {
-        background-color: rgb(0,128,255);}
-     62.4% {
-        background-color: rgb(0,64,255);}
-     66.56% {
-        background-color: rgb(0,0,255);}
-     70.72% {
-        background-color: rgb(64,0,255);}
-     74.88% {
-        background-color: rgb(128,0,255);}
-     79.04% {
-        background-color: rgb(191,0,255);}
-     83.2% {
-        background-color: rgb(255,0,255);}
-     87.36% {
-        background-color: rgb(255,0,191);}
-     91.52% {
-        background-color: rgb(255,0,128);}
-     95.68% {
-        background-color: rgb(255,0,64);}
+        background-color: rgba(0,255,245,0.80);}
+     8% {
+        background-color: rgba(0,255,245,0.32);}
+     16% {
+        background-color: rgba(0,255,245,0.16);}
+     24% {
+        background-color: rgba(0,255,245,0.96);}
+     32% {
+        background-color: rgba(0,255,245,0.56);}
+     40% {
+        background-color: rgba(0,255,245,0.40);}
+     48% {
+        background-color: rgba(0,255,245,0.80);}
+     56% {
+        background-color: rgba(0,255,245,0.56);}
+     64% {
+        background-color: rgba(0,255,245,0.72);}
+     72% {
+        background-color: rgba(0,255,245,0.16);}
+     80% {
+        background-color: rgba(0,255,245,0.64);}
+     88% {
+        background-color: rgba(0,255,245,0.08);}
+     96% {
+        background-color: rgba(0,255,245,0.80);}
      100% {
-        background-color: rgb(255,0,0);}
+        background-color: rgba(0,255,245,1);}
 }
-.circleIconButton-jET_ig, .theme-dark .circleIconButton-jET_ig{
-    background: rgba(0,0,0,0);
-    color: silver;
-    border: none;
+mask{
+    display:none;
 }
-/*Server Discovery*/
-.theme-dark .pageWrapper-1PgVDX{
+    /*====add and explore====*/
+.circleIconButton-jET_ig{
     background-color: rgba(0,0,0,0);
-}
-.theme-dark .wrapper-39oAo3{
-    background-color: rgba(0,0,0,0.48);
-    border: 1px solid silver;
-    border-radius: 0px;
+    color: silver;
+    border: 1px dashed silver;
 }
 /*================End Server List================*/
 /*================Games / Store / library================*/
- .theme-dark .activityFeed-28jde9, .theme-dark .applicationStore-1pNvnv, .theme-dark .gameLibrary-TTDw4Y{
+ .theme-dark .activityFeed-1C0EmJ, .theme-dark .applicationStore-1pNvnv, .theme-dark .gameLibrary-TTDw4Y,.theme-dark .headerBar-UHpsPw{
      background-color: rgba(0,0,0,0);
+}
+.theme-dark .container-1r6BKw{
+    background: rgba(0,0,0,0);
 }
 .theme-dark .header-39GIC8{
     background-color:rgba(0,0,0,0.8);
 }
-.theme-dark .itemBackground-1jfD8p:before, .theme-dark .mediaDescription-31GsyQ{
+.theme-dark .itemBackground-1jfD8p:before, .theme-dark .mediaDescription-31GsyQ, .theme-dark .placeholderWrapper-3FaLtZ,.theme-dark .wrapper-3UweLa{
     background: rgba(0,0,0,0) !important;
 }
  .article-FleDq5, .carousel-JbsNzL, .paginationItem-3-MBTL{
@@ -180,6 +138,19 @@
 }
 .article-3kb3qm{
     background-color: rgba(0,0,0,0);
+}
+.theme-dark .outer-2IVh5n{
+    background-color: rgba(0,0,0,0.88);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.theme-dark .outer-2IVh5n.interactive-1BeKSi:hover{
+    background-color: rgba(0,0,0,0.88);
+    border-bottom: 1px solid silver;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 .carousel-2WxMes{
     border-radius: none;
@@ -286,11 +257,39 @@
     background-color: rgb(0,0,0);
     opacity: 1;
  }
- .theme-dark .item-2yFVoY{
+ .theme-dark .item-2yFVoY,.theme-dark .tile-QA_yMc{
     background-color: rgba(0,0,0,0.48);
+    border-radius: 0px;
  }
- .theme-dark .libraryFilterInput-3JzqZD{
+ .theme-dark .tile-QA_yMc:hover{
+    background-color: rgba(0,0,0,0.54);
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-radius: 0px;
+ }
+ .theme-dark .libraryFilterInput-3JzqZD,.theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover{
     background-color: rgba(0,0,0,0);
+ }
+ .theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover{
+    background-color: rgba(0,0,0,0);
+    background: linear-gradient(90deg,rgba(0,0,0,0)75%,rgba(0,255,245,0.32));
+ }
+ .theme-dark .scrollerButton-1Vm5_P{
+    background-color: rgba(0,0,0,0.88);
+    color: silver;
+    border: 1px solid silver;
+ }
+ .theme-dark .gradientOverlayRight-3vMuS8,.theme-dark .gradientOverlayLeft-3w159C{
+    background-image: linear-gradient(90deg,rgba(0,0,0,0),rgba(0,0,0,0));
+ }
+ .theme-dark .tileMedia-1q3guD{
+    border-radius: 0px;
+ }
+ .theme-dark .tileMedia-1q3guD:hover{
+    background-color: rgba(0,0,0,0.64);
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-radius: 0px;
  }
 /*================End Games================*/
 /*================Private Call================*/
@@ -378,6 +377,14 @@
     background-color: rgba(0,0,0,0);
 }
 /*================End Private Channel Column================*/
+/*================RTC pannel================*/
+.theme-dark .container-2x5lvQ header, .theme-dark .container-2x5lvQ section{
+    background-color: rgba(0,0,0,0.88);
+}
+.container-1UB9sr{
+    background: rgba(0,0,0,0);
+}
+/*================End RTC pannel================*/
 /*================Server Pin Messages================*/
  .theme-dark .messagesPopoutWrap-1MQ1bW{
      border-radius: 0px;
@@ -407,34 +414,33 @@
  .actionButtons-1sUUug, .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug{
      box-shadow: 0 0 0 0 rgba(0,0,0,0);
 }
- .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug{
+ .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug, .theme-dark .footer-1kmXd4{
      background-color: rgba(0,0,0,0);
 }
 /*================End Server Pin Messages================*/
 /*================Server Channels Column================*/
- .container-PNkimc, .channels-Ie2l6A, .firefoxFixScrollFlex-cnI2ix{
-     background-color: rgba(0,0,0,0) !important;
+ .channels-Ie2l6A, .container-PNkimc{
+    background-color: rgba(0,0,0,0);
+    color: silver;
 }
- .channels_Ie216A{
-    background-color: none !important;
- }
- .contentSelectedText-3wUhMi, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active{
-     background-color: rgba(255,255,255,0.08) !important;
-     border-radius: 0px !important;
-}
-
- .theme-dark .container-2Thooq, .container-1UB9sr{
-    background:rgba(0,0,0,0.32);
- }
- .container-3nXdBP section p{
-    color: white !important;
- }
- .theme-dark .container-2x5lvQ section, .theme-dark .container-2x5lvQ header{
-    background-color: rgba(0,0,0,1);
- }
- .container-2x5lvQ{
-    border:1px solid silver;
+ .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU{
+    background-color: rgba(0,0,0,0);
+    border: 1px solid silver;
     border-radius: 0px !important;
+ }
+ .theme-dark .wrapper-1ucjTd:hover .content-3at_AU, .theme-light .wrapper-1ucjTd:hover .content-3at_AU{
+    background: linear-gradient(90deg,rgba(0,0,0,0)75%,rgba(0,255,245,0.32));
+ }
+ .theme-dark .wrapper-1ucjTd:active .content-3at_AU, .theme-light .wrapper-1ucjTd:active .content-3at_AU{
+    background: rgba(0,0,0,0);
+ }
+ .theme-dark .container-2Thooq, .theme-light .container-2Thooq{
+    background: rgba(0,0,0,0);
+ }
+ .darkTheme-3uETC4.container-2XeR5Z{
+    background-color: rgba(0,0,0,0);
+    border: 1px solid silver;
+    border-radius: 0px;
  }
 /*================End Server Channels Column================*/
 /*================Chats================*/
@@ -616,6 +622,9 @@
     color: red;
     margin: 0 50 0 50;
  }
+ .theme-dark .children-19S4PO:after{
+    background: none !important;
+ }
 /*================End Chats================*/
 /*================Server Members List================*/
  .theme-dark .members-1998pB{
@@ -745,6 +754,12 @@
     background:rgba(0,0,0,0.64);
     border-color:rgb(0,255,245); 
 }
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse{
+    background-color: rgba(0,0,0,0);
+}
+.theme-dark .input-cIJ7To:hover{
+    border-color: silver;
+}
 /*================End SETTINGS================*/
 /*================Custom CSS Editor DETACHED================*/
  #bd-customcss-detach-container, .ace-monokai, .ace-monokai .ace_gutter,.content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls{
@@ -762,11 +777,12 @@
      border-color: silver;
      border: 1px solid;
 }
- .ui-standard-sidebar-view #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover{
-     background: rgba(0,0,0,0);
-}
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button{
     background: rgba(0,0,0,0);
+}
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover{
+    background: rgba(0,0,0,0);
+    border: 1px solid silver;
 }
 /*================End Custome CSS Editor DETACHED================*/
 /*================Search Filter================*/
@@ -826,16 +842,22 @@
     background-color: rgba(0,0,0,0);
  }
 /*================End Search Filter================*/
-/*================Subs Menus================*/
- .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container,
- .bda-dark .emoji-picker, .bda-dark .emoji-picker .category{
-    background-color: rgba(0,0,0,0.40);
- }
- .searchBar-2_Yu-C.searchBarLight-1NxoDG, .emojiPicker-3m1S-j .stickyHeader-1SS0JU{
+/*================Subs menus================*/
+.bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j{
+    background-color: rgba(0,0,0,0.48);
+}
+.searchBar-2_Yu-C.searchBarLight-1NxoDG{
     background-color: rgba(0,0,0,0);
-    background: rgba(0,0,0,0);
- }
-
+}
+.searchBar-2_Yu-C.searchBarLight-1NxoDG, .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6{
+    background-color: rgba(0,0,0,0.88);
+    border-bottom: 1px solid
+}
+.searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R{
+    background-color: rgba(0,0,0,0);
+    border: 1px solid silver;
+    border-radius: 0px !important;
+}
  .bda-dark .emojiPicker-3m1S-j .category-2U57w6{
     color: silver;
  }
@@ -1002,6 +1024,13 @@
     border: 1px solid silver;
     border-radius: 0px;
  }
+ .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug, .theme-dark .jumpButton-3DTcS_{
+    background-color: rgba(0,0,0,0);
+    box-shadow: none !important;
+ }
+ .theme-dark .jumpButton-3DTcS_{
+    border: 1px solid silver;
+ }
 /*================End Subs Menus================*/
 /*================Scrollers================*/
  .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb, .ace_scrollbar-v, .ace_scrollbar-h{
@@ -1040,5 +1069,14 @@
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb{
     background-color: rgba(0,0,0,0);
     border-color: rgba(0,0,0,0);
+}
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece,
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar,
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track,
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece{
+    background-color: rgba(0,0,0,0) !important;
+    border-color: rgba(0,0,0,0) !important;
 }
 /*================End Scrollers================*/
