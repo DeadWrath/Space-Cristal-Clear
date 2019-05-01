@@ -19,7 +19,7 @@
 /*================End Fonts Settings================*/
 /*================APP================*/
  .app, .callou-backdrop, body{
-     background: url(http://puu.sh/CX5kq/b48e2de7c9.jpg) !important;
+     background: url(https://puu.sh/DmlIr.jpg) !important;
      background-size: cover !important;
      background-attachment: fixed !important;
      background-position: center center !important;
@@ -115,6 +115,9 @@ mask{
     background-color: rgba(0,0,0,0);
     color: silver;
     border: 1px dashed silver;
+}
+.theme-dark .wrapper-39oAo3,.theme-dark .pageWrapper-1PgVDX{
+    background-color: rgba(0,0,0,0);
 }
 /*================End Server List================*/
 /*================Games / Store / library================*/
@@ -425,8 +428,9 @@ mask{
 }
  .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU{
     background-color: rgba(0,0,0,0);
-    border: 1px solid silver;
     border-radius: 0px !important;
+    border: 1px solid silver;
+    clip-path: polygon(99% 4%, 99% 96%, 0% 100%, 0% 0%);
  }
  .theme-dark .wrapper-1ucjTd:hover .content-3at_AU, .theme-light .wrapper-1ucjTd:hover .content-3at_AU{
     background: linear-gradient(90deg,rgba(0,0,0,0)75%,rgba(0,255,245,0.32));
@@ -589,9 +593,6 @@ mask{
     border-color: silver !important;
     border:1px solid;
  }
- .theme-dark .container-3ayLPN{
-    background-color: rgba(0,0,0,0.48);
- }
  .theme-dark .option-96V44q:after{
     background: none;
  }
@@ -625,6 +626,11 @@ mask{
  .theme-dark .children-19S4PO:after{
     background: none !important;
  }
+ .theme-dark .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh, .theme-light .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh{
+    background-color: rgba(0,0,0,0);
+    background: linear-gradient(90deg,rgba(0,0,0,0)75%,rgba(0,255,245,0.32));
+    border-radius: 0px;
+ }
 /*================End Chats================*/
 /*================Server Members List================*/
  .theme-dark .members-1998pB{
@@ -632,8 +638,11 @@ mask{
      border-radius: 0px;
 }
  .theme-dark .member-3W1lQa:hover .content-OzHfo4{
-     background-color: rgba(255,255,255,0.096);
-     border-radius: 0px;
+    background-color: none !important;
+    background: linear-gradient(90deg,rgba(0,0,0,0)75%,rgba(0,245,255,0.32));
+    border: 1px solid silver;
+    border-radius: 0px;
+    clip-path: polygon(99% 4%, 99% 96%, 0% 100%, 0% 0%);
 }
  .member-3W1lQa{
      border-radius: 0px;
@@ -728,7 +737,9 @@ mask{
     background:linear-gradient(90deg,rgba(0, 255, 245, 0.24) 1%,rgba(0,0,0,0)99%);
  }
  .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected, .side-8zPYf6 .itemSelected-1qLhcL{
-    background: linear-gradient(90deg,rgba(0,0,0,0)75%,rgba(0,255,245,0.32));
+    background: linear-gradient(90deg,rgba(0,0,0,0)50%,rgba(0,255,245,0.32));
+    border: 1px solid silver;
+    clip-path: polygon(99% 4%, 99% 96%, 0% 100%, 0% 0%);
 }
 .option-n0icdO{
     background-color: rgba(114,118,125,0.48);
@@ -759,6 +770,13 @@ mask{
 }
 .theme-dark .input-cIJ7To:hover{
     border-color: silver;
+}
+.theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover{
+    background-color: none !important;
+    background: linear-gradient(90deg,rgba(0,0,0,0)50%,rgba(0,245,255,0.32));
+    border: 1px solid silver;
+    border-radius: 0px;
+    clip-path: polygon(99% 4%, 99% 96%, 0% 100%, 0% 0%);
 }
 /*================End SETTINGS================*/
 /*================Custom CSS Editor DETACHED================*/
@@ -819,7 +837,7 @@ mask{
  .theme-dark .search-results-wrap .search-result:after{
      background-image: linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255,0.16));
 }
- .theme-dark .search-results-wrap .search-result .hit{
+ .theme-dark .search-results-wrap .search-result .hit,.theme-dark .focused-2bY0OD{
      background-color: rgba(0,0,0,0.88);
      border:1px solid silver !important;
      border-radius:0px;
@@ -838,8 +856,29 @@ mask{
  .search-result-message>.message-group{
      width:100%;
  }
- .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3{
+ .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3, .theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA{
     background-color: rgba(0,0,0,0);
+    border-radius: 0px !important;
+ }
+ .theme-dark .option-96V44q.selected-rZcOL-{
+    background-color: rgba(0,0,0,0);
+    border-radius: 0px;
+    border: 1px solid silver;
+    clip-path: polygon(99% 4%,99% 96%,0% 100%,0% 0%);
+ }
+ .theme-dark .option-96V44q.selected-rZcOL-:after{
+    background: linear-gradient(90deg,rgba(0,0,0,0),rgba(0,245,255,0.32) 50%)
+ }
+ .theme-dark .container-3ayLPN{
+    background-color: rgba(0,0,0,1);
+    border-radius: 0px;
+    border: 1px solid silver;
+    clip-path: polygon(0 1%, 100% 1%, 100% 100%, 0% 100%);
+ }
+ .theme-dark .jumpButton-Ia2hRJ{
+    background-color: rgba(0,245,255,0.16);
+    border-radius: 0px;
+    border:1px solid silver;
  }
 /*================End Search Filter================*/
 /*================Subs menus================*/
